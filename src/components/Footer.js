@@ -5,6 +5,7 @@ import github from "../images/githubicon.svg"
 
 export default function Footer() {
    return(
+      <div className="footer">
       <footer>
          <a href="https://twitter.com/tonnipaul" target="blank">
              <img src={twitter} alt="twtr"/>
@@ -18,6 +19,9 @@ export default function Footer() {
          <a href="https://github.com/tonnipaul"target="blank">
             <img src={github} alt="gh"/>
          </a>
+         
       </footer>
+      <small>TonniPaul Inc. &copy; 2022 </small>
+      </div>
    );
 }
