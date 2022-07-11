@@ -1,13 +1,136 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background: #23252C;
+  font-family: 'Inter';
+  font-weight: 400;
+  color: #fff;
+}
+
+.App{
+  width: 317px;
+  margin: 2rem auto;
+  background: #1A1B21;
+  color: #fff;
+  box-shadow: 0px 2px 2px #000;
+  border-radius: 10px;
+}
+
+.contact{
+  text-align: center;
+}
+
+.contact--img{
+  width: 100%;
+  height: 317px;
+  border-radius: 10px 10px 0 0;
+}
+
+.contact > h3{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 2rem;
+}
+
+.contact > p{
+  color: #F3BF99;
+  font-size: 13px;
+}
+
+.contact > a{
+  font-size: 11px;
+  margin: 0;
+  color:#F5F5F5;
+  padding: 0;
+}
+
+a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  padding: 9px 13px 9px 11px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  gap: 8px;
+  text-decoration: none;
+}
+
+a > img{
+  padding: 0;
+  margin: 0;
+}
+
+.contact-btn{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  grid-gap: 10px;
+  padding: 1.5rem 0;
+}
+
+.contact-btn > img{
+  width: 16px;
+}
+
+.contact-btn-mail{
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  color:  #374151;
+}
+
+.contact-btn-lkd{
+  background: #5093E2;
+  border: 1px solid #5093E2;
+  color: #fff;
+}
+
+main{
+  width: 80%;
+  margin: auto;
+  padding: 1rem 0;
+  font-size: 12px;
+  line-height: 15px;
+  color: #DCDCDC;
+}
+
+main > h3{
+  font-weight: 700;
+  font-size: 16px;
+  color: #F5F5F5;
+}
+
+main > p{
+  margin: 1rem 0;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #161619;
+  padding: .6rem;
+  border-radius: 0px 0px 10px 10px;
+}
+
+/* ====== MEDIA QUERIES ====== */
+
+@media (max-width:500px){
+  .App{
+    width: 100%;
+    margin: 0;
+    height: max-content;
+  }
+  .contact--img{
+    width: 80%;
+    margin:2rem auto 0;
+  }
 }
