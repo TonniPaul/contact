@@ -6,7 +6,7 @@ function Contact(){
    return (
       <div className="contact">
          <img src={paul} alt="paul" className="contact--img"/>
-         <h3>Paul Oluwatoni</h3>
+         <h3>Paul O. Ariyo-Adeoye</h3>
          <p>Frontend Developer</p>
          <a href="http://tonnipaul.live">tonnipaul.live</a>
          <div className="contact-btn">
