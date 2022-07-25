@@ -1,6 +1,6 @@
 export default function About (){
    return (
-      <main>
+      <main id="about">
          <h3>About</h3>
          <p>
             I am a frontend developer with particular interest in building amazing 

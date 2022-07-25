@@ -5,7 +5,7 @@ import github from "../images/githubicon.svg"
 
 export default function Footer() {
    return(
-      <div className="footer">
+      <div className="footer" id="contact">
       <footer>
          <a href="https://twitter.com/tonnipaul" target="blank">
              <img src={twitter} alt="twtr"/>
