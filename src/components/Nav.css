@@ -4,7 +4,7 @@ nav{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 1rem;
+   padding: .5rem 2rem;
 }
 ul{
    display: flex;
@@ -36,6 +36,7 @@ h2{
    right: 10px;
    font-size: 50px;
    color: rgb(118, 202, 118);
+   text-shadow: -2px -3px 3px #fff;
 }
 @media(max-width:500px){
    nav{

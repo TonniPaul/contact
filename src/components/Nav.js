@@ -11,7 +11,7 @@ function Nav (){
                <li>
                   <a href="#about">
                      <div className='icons'>
-                        <i class="fa-solid fa-person"></i>
+                        <i class="fa-solid fa-user"></i>
                         <p>About</p>
                      </div>
                   </a>
