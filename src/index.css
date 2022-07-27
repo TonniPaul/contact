@@ -47,7 +47,7 @@ body{
 }
 
 .contact > a{
-  font-size: 11px;
+  font-size: 13px;
   margin: 0;
   color:#1F1F1F;
   padding: 0;
@@ -151,10 +151,14 @@ small{
     width: 100%;
     margin: 0;
     height: max-content;
-    padding: .2rem;
+    padding: 0;
   }
   .contact--img{
     width: 80%;
     margin:2rem auto 0;
+  }
+  main{
+    width: 90%;
+    margin: auto;
   }
 }
