@@ -139,13 +139,19 @@ small{
 }
 
 /* ====== MEDIA QUERIES ====== */
-
+@media (max-width:900px){
+  .App{
+    width: 90%;
+    background: #E5E5E5;
+    box-shadow: none;
+  }
+}
 @media (max-width:500px){
   .App{
-    background: #E5E5E5;
     width: 100%;
     margin: 0;
     height: max-content;
+    padding: .2rem;
   }
   .contact--img{
     width: 80%;
