@@ -4,23 +4,24 @@ import linkedin from "../images/linkedin.svg"
 
 function Contact(){
    return (
-      <div className="contact">
+      <main className="contact">
          <img src={paul} alt="paul" className="contact--img"/>
-         <h3>Paul O. Ariyo-Adeoye</h3>
-         <p>Frontend Developer</p>
-         <a href="http://tonnipaul.live">tonnipaul.live</a>
-         <div className="contact-btn">
-            <a href="mailto:ariyoadeoyepaul@gmail.com" target='blank' className="contact-btn-mail">
-               <img src={email} alt='m'/>
-               Email
-            </a>
-
-            <a href="https://www.linkedin.com/in/tonnipaul/" target="blank" className="contact-btn-lkd">
-               <img src={linkedin} alt='m'/>
-               LinkedIn
-            </a>
+         <div className="contact--details">
+            <h3>Paul O. Ariyo-Adeoye</h3>
+            <p>Frontend Developer</p>
+            <a href="http://tonnipaul.live" className="tpl">tonnipaul.live</a>
+            <div className="contact-btn">
+               <a href="mailto:ariyoadeoyepaul@gmail.com" target='blank' className="contact-btn-mail">
+                  <img src={email} alt='m'/>
+                  Email
+               </a>
+               <a href="https://www.linkedin.com/in/tonnipaul/" target="blank" className="contact-btn-lkd">
+                  <img src={linkedin} alt='m'/>
+                  LinkedIn
+               </a>
+            </div>
          </div>
-      </div>
+      </main>
    );
 };
 export default Contact;
