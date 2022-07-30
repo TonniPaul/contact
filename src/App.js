@@ -4,9 +4,10 @@ import Interests from "./components/Interests";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
+
 function App() {
   return (
-    <>
+    <div className="hero">
       <Nav />
       <div className="App">
         <Contact/>
@@ -14,7 +15,7 @@ function App() {
         <Interests/>
       </div>
       <Footer/>
-    </>
+    </div>
   );
 }
 
