@@ -56,19 +56,19 @@ h2{
       font-size: 11px;
    }  
    ul{
-      width: 100vw;
+      width: 100%;
       position: fixed;
       bottom: 8px;
       left: 50%;
       border: 1px solid #6200EE;
       background-color: #6200EE;
-      border-radius: 10px;
+      border-radius: 60px;
       align-items: center;
       justify-content: center;
       width: max-content;
       margin: auto;
       margin-left: -25%;
-      padding: .2rem 2rem;
+      padding: .2rem 1rem;
    }
    i{
       font-size: 20px;
@@ -83,7 +83,8 @@ h2{
       padding-bottom: 1rem;
    }
    ul{
-      left: auto;
+      width: calc(100vw);
+      left: 0;
       margin: auto;
    }
 
