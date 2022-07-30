@@ -11,6 +11,14 @@ function Nav (){
                <li>
                   <a href="#about">
                      <div className='icons'>
+                     <i class="fa-solid fa-house"></i>
+                        <p>Home</p>
+                     </div>
+                  </a>
+               </li>
+               <li>
+                  <a href="#about">
+                     <div className='icons'>
                         <i class="fa-solid fa-user"></i>
                         <p>About</p>
                      </div>
@@ -19,7 +27,7 @@ function Nav (){
                <li>
                   <a href="#contact">
                      <div className='icons'>
-                     <i class="fa-brands fa-dev " ></i>
+                        <i class="fa-solid fa-laptop"></i>
                         <p>Projects</p>
                      </div>
                   </a>

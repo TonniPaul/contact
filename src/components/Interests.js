@@ -1,11 +1,12 @@
 export default function Interests() {
    return(
-      <main>
+      <main className="int">
          <h3>  Interests </h3>
          <p>
          Food, Music,  Books. Internet fanatic, Football,  Entrepenuership,
           Fashion, Travels and Tours, Art.
          </p>
+         <div className="int"></div>
       </main>
    )
 }
