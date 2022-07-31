@@ -136,9 +136,6 @@ small{
     background: inherit;
   }
 
- .int{
-  height: 100px;
- }
  .toolabout{
   grid-template-columns: auto;
   gap: 50px;
@@ -183,5 +180,8 @@ small{
   }
   .footer{
     display: none;
+ }
+ .int{
+  height: 90px;
  }
 }
