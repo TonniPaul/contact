@@ -1,4 +1,4 @@
-import Contact from "./components/Contact";
+import Hero from "./components/Hero";
 import About from "./components/About";
 // import Interests from "./components/Interests";
 import Nav from "./components/Nav";
@@ -11,7 +11,7 @@ function App() {
     <div className="hero">
       <Nav />
       <div className="App">
-        <Contact/>
+        <Hero/>
         <div className="toolabout">
           <About />
           <Toolset/>
