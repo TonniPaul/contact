@@ -5,6 +5,7 @@
 *{
   margin: 0;
   box-sizing: border-box;
+  max-width: 100%;
 }
 body{
   background:#373737;
@@ -51,6 +52,7 @@ body{
   justify-content: center;
   padding: 2rem;
   box-shadow: 0 2px 2px #fff;
+  text-align: center;
 }
 .tpl{
   display: block;
@@ -157,12 +159,17 @@ small{
     background-image: url(../public/images/7gRx.gif);
     background: inherit;
   }
-  .footer{
-    display: none;
- }
+
  .int{
   height: 100px;
  }
+ .toolabout{
+  grid-template-columns: auto;
+  gap: 50px;
+}
+.int{
+  height: 0;
+}
 }
 @media (max-width:500px){
   .hero{
@@ -171,10 +178,6 @@ small{
   }
   .contact{
     height: 80vh;
-  }
-  .toolabout{
-    grid-template-columns: auto;
-    gap: 50px;
   }
   .App{
     width: 100%;
@@ -187,15 +190,7 @@ small{
     flex-direction: column;
     justify-content: center;
   }
-  .contact--details{
-    text-align: center;
-  }
-  .contact--details > h3{
-    font-size: 30px;
-  }
-  .contact--details > p{
-    font-size: 15px;
-  }
+
   .tpl{
     font-size: 13px;
   }
@@ -209,4 +204,7 @@ small{
     bottom: 90px;
     font-size: 30px;
   }
+  .footer{
+    display: none;
+ }
 }

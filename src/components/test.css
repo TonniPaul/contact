@@ -1,0 +1,40 @@
+.test{
+   width: 50%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 10px;
+   position: relative;
+}
+button{
+   color: #000;
+   padding: 2rem;
+   font-size: 30px;
+   border-radius: 100%;
+   border: none;
+}
+.top{
+   background-color: inherit;
+   border: 4px dashed grey;
+  
+  grid-row: 1;
+  grid-column: 1/-1;
+}
+.add{
+   background: green;
+   grid-row: 2;
+   grid-column: 2;
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+   width: 50px;
+   padding: 1rem; 
+}
+.minus{
+   background-color: red;
+   position: absolute;
+   bottom: 0px;
+   left: 0;
+   width: 50px;
+   padding: 1rem; 
+}
