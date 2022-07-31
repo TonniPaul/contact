@@ -67,6 +67,7 @@ h2{
    }
    ul{
       position: fixed;
+      gap: .5rem;
       bottom: 8px;
       left: 50%;
       border: 1px solid #373737;
@@ -75,7 +76,7 @@ h2{
       align-items: center;
       justify-content: center;
       width: max-content;
-      padding: .2rem 0;
+      padding: 0;
       width: calc(90vw);
       left: 0;
       right: 0;
