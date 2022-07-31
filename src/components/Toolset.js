@@ -14,7 +14,6 @@ function Toolset(){
             <i class="fa-brands fa-git"></i>
          </div>
       </main>
-      <div className='int'></div>
       </>
    );
 }
