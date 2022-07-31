@@ -43,15 +43,16 @@ h2{
 @media (max-width:900px){
    .icons{
       flex-direction: column;
-      font-size: 12px;
+      font-size: 10px;
       margin: auto;
+      padding: 10px;
    }
    .icons:active, .icons:focus{
       border-radius: 10px;
       background: #000;
    }
    .icons > p{
-      font-size: 11px;
+      font-size: 8px;
    }  
    .icons > i{
       font-size: 20px;
@@ -63,7 +64,6 @@ h2{
       display: block;
       margin: auto;
       text-align: center;
-      padding-bottom: 1rem;
    }
    ul{
       position: fixed;
@@ -75,15 +75,12 @@ h2{
       align-items: center;
       justify-content: center;
       width: max-content;
-      margin: auto;
-      margin-left: -25%;
       padding: .2rem 0;
-   }
-   ul{
       width: calc(90vw);
       left: 0;
       right: 0;
-      margin: auto;
-   }
+      margin: 0 auto;
+      z-index: 9999;
+   } 
 
 }

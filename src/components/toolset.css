@@ -18,7 +18,8 @@
 .toolset > div > i{
    font-size: 70px;
 }
-@media(max-width:500px){
+
+@media(max-width:900px){
    .toolset > div{
       grid-template-columns: repeat(2, auto);
    }
