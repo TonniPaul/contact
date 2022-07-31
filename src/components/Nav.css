@@ -39,6 +39,7 @@ h2{
    font-size: 50px;
    color: rgb(26, 84, 26);
    text-shadow: -2px -3px 3px #fff;
+   z-index: 888;
 }
 @media (max-width:900px){
    .icons{

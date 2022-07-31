@@ -3,6 +3,7 @@
    box-shadow: var(--shadow);
    text-align: center;
    font-size: 20px;
+   padding: 2rem;
 }
 .toolset >h3{
    padding: 1rem;

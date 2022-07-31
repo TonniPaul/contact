@@ -21,7 +21,7 @@ body{
   border-radius: 10px;
 }
 
-.contact{
+.hero-body{
   background-image: url(../public/images/coverbg.png);
   background-position: 100vw;
   background-size: cover;
@@ -32,14 +32,14 @@ body{
   position: relative;
   top: 0;
 }
-.contact > main{
+.hero-body > main{
   height: inherit;
   margin: auto;
   
 }
-.contact > main > p{
-  font-family: 'Square Peg', sans-serif;
-  width: 40%;
+.hero-body > main > p{
+  width: 60%;
+  letter-spacing: 2px;
   position: absolute;
   bottom: 40px;
   font-size: 30px;
@@ -83,30 +83,6 @@ a{
 a > img{
   padding: 0;
   margin: 0;
-}
-
-.contact-btn{
-  width: 80%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
-  grid-gap: 15px;
-  padding: 1.5rem 0;
-}
-
-.contact-btn > img{
-  width: 16px;
-}
-
-.contact-btn-mail{
-  background: #FFFFFF;
-  border: 1px solid #D1D5DB;
-  color:  #374151;
-}
-
-.contact-btn-lkd{
-  background: #5093E2;
-  border: 1px solid #5093E2;
 }
 .about--img{
   width: 40%;
@@ -170,14 +146,14 @@ small{
 .int{
   height: 0;
 }
+.hero-body{
+  height: 70vh;
+}
 }
 @media (max-width:500px){
   .hero{
     height: 100vh;
     position: relative;
-  }
-  .contact{
-    height: 80vh;
   }
   .App{
     width: 100%;
@@ -185,7 +161,8 @@ small{
     height: max-content;
     padding: 0;
   }
-  .contact{
+  .hero-body{
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -199,7 +176,7 @@ small{
     width: 90%;
     margin: auto;
   }
-  .contact > main > p{
+  .hero-body > main > p{
     width: 60%;
     bottom: 90px;
     font-size: 30px;
