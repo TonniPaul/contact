@@ -1,4 +1,8 @@
 import './contact.css'
+import facbook from "../images/facebook.svg"
+import twitter  from "../images/twittericon.svg"
+import instagram from "../images/instagram.svg"
+import github from "../images/githubicon.svg"
 
 function Contact(){
    return(
@@ -46,6 +50,22 @@ function Contact(){
                <button type="submit" className='form-submit'>Submit Message</button>
             </p>
          </form>
+         
+         <div className='social'>
+            <a href="https://twitter.com/tonnipaul" target="blank">
+               <img src={twitter} alt="twtr"/>
+            </a>
+            <a href="https://facebook.com/tofpaul" target="blank">
+               <img src={facbook} alt="fb"/>
+            </a>
+            <a href="https://instagram.com/tonnipaul"target="blank">
+               <img src={instagram} alt="ig"/>
+            </a>
+            <a href="https://github.com/tonnipaul"target="blank">
+               <img src={github} alt="gh"/>
+            </a>
+         </div>
+         
          <div className='int'></div>
       </main>
    );
