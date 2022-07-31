@@ -2,11 +2,19 @@ import facbook from "../images/facebook.svg"
 import twitter  from "../images/twittericon.svg"
 import instagram from "../images/instagram.svg"
 import github from "../images/githubicon.svg"
+import email from "../images/email.svg"
+import linkedin from "../images/linkedin.svg"
 
 export default function Footer() {
    return(
       <div className="footer" id="contact">
       <footer>
+         <a href="mailto:ariyoadeoyepaul@gmail.com" target='blank'>
+               <img src={email} alt="mail"/>
+            </a>
+         <a href="https://github.com/tonnipaul"target="blank">
+               <img src={linkedin} alt="linkedin"/>
+         </a>
          <a href="https://twitter.com/tonnipaul" target="blank">
              <img src={twitter} alt="twtr"/>
          </a>

@@ -30,8 +30,11 @@ h2{
    justify-content: center;
    align-items: center;
    padding: .1rem;
+   border: 2px solid #373737;
 }
-
+.icons:active, .icons:focus{
+   border-bottom: 2px solid #fff;
+}
 .whatsapp{
    position: fixed;
    bottom: 100px;
