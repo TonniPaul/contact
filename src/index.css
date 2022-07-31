@@ -38,9 +38,9 @@ body{
 }
 .contact > main > p{
   font-family: 'Square Peg', sans-serif;
-  width: 60%;
+  width: 40%;
   position: absolute;
-  bottom: 30px;
+  bottom: 40px;
   font-size: 30px;
   font-weight: 900;
   margin: 0;
@@ -199,18 +199,14 @@ small{
   .tpl{
     font-size: 13px;
   }
-  .contact-btn{
-    margin: auto;
-  }
-  .contact--img{
-    width: 80%;
-    margin:2rem auto 0;
-  }
+  
   main{
     width: 90%;
     margin: auto;
   }
   .contact > main > p{
+    width: 60%;
     bottom: 90px;
+    font-size: 30px;
   }
 }
