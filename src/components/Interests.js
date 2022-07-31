@@ -6,7 +6,6 @@ export default function Interests() {
          Food, Music,  Books. Internet fanatic, Football,  Entrepenuership,
           Fashion, Travels and Tours, Art.
          </p>
-         <div className="int"></div>
       </main>
    )
 }

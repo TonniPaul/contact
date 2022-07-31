@@ -1,23 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 :root{
-  --shadow: 0px 2px 2px #000;
+  --shadow: 0px 2px 2px #fff;
 }
 *{
   margin: 0;
   box-sizing: border-box;
 }
 body{
-  background: #E5E5E5;
+  background:#373737;
   background-image: url(../public/images/7gRx.gif);
   background-size: cover;
   font-family: 'Inter';
   font-weight: 400;
-  color: #3700B3;
+  color: #fff;
 }
 
 .App{
   margin: 2rem auto;
-  color: #1F1F1F;
   border-radius: 10px;
   padding: 1rem;
 }
@@ -27,10 +26,22 @@ body{
   grid-template-columns: repeat(2,1fr);
   align-items: center;
 }
+.abt{
+  background: #373737;
+  justify-content: center;
+  padding: 2rem;
+  box-shadow: 0 2px 2px #fff;
+}
 .tpl{
-  color:#fff;
   display: block;
   padding: 0;
+}
+.toolabout{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-self: flex-start;
+  width: 80%;
+  margin: auto;
 }
 .contact--img{
   width: 100%;
@@ -90,21 +101,22 @@ a > img{
 .contact-btn-lkd{
   background: #5093E2;
   border: 1px solid #5093E2;
-  color: #fff;
 }
-
+.about--img{
+  width: 40%;
+  margin: auto;
+  border-radius: 50% 20%;
+}
 main{
   width: 80%;
   margin: auto;
   padding: 1rem 0;
   font-size: 16px;
-  color: #fff;
 }
 
 main > h3{
   font-weight: 700;
   font-size: 20px;
-  color: #fff;
 }
 
 main > p{
@@ -155,6 +167,10 @@ small{
   .hero{
     height: 100vh;
     position: relative;
+  }
+  .toolabout{
+    grid-template-columns: auto;
+    gap: 50px;
   }
   .App{
     width: 100%;

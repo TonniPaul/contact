@@ -1,8 +1,9 @@
 import Contact from "./components/Contact";
 import About from "./components/About";
-import Interests from "./components/Interests";
+// import Interests from "./components/Interests";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import Toolset from "./components/Toolset";
 
 
 function App() {
@@ -11,8 +12,11 @@ function App() {
       <Nav />
       <div className="App">
         <Contact/>
-        <About />
-        <Interests/>
+
+        <div className="toolabout">
+          <About />
+          <Toolset/>
+        </div>
       </div>
       <Footer/>
     </div>

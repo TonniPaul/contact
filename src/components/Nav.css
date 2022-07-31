@@ -23,7 +23,6 @@ h2{
    font-family: 'Square Peg';
    font-size: 50px;
    text-shadow: -2px 2px 4px rgb(184, 170, 170);
-   color: #fff;
 }
 .icons{
    display: flex;
@@ -38,7 +37,7 @@ h2{
    bottom: 100px;
    right: 10px;
    font-size: 50px;
-   color: rgb(35, 94, 35);
+   color: rgb(26, 84, 26);
    text-shadow: -2px -3px 3px #fff;
 }
 @media (max-width:900px){
@@ -50,13 +49,11 @@ h2{
    .icons:active, .icons:focus{
       border-radius: 10px;
       background: #000;
-      color: #fff;
    }
    .icons > p{
       font-size: 11px;
    }  
- 
-   i{
+   .icons > i{
       font-size: 20px;
    }
 }
@@ -69,7 +66,6 @@ h2{
       padding-bottom: 1rem;
    }
    ul{
-      width: 100%;
       position: fixed;
       bottom: 8px;
       left: 50%;
@@ -81,11 +77,12 @@ h2{
       width: max-content;
       margin: auto;
       margin-left: -25%;
-      padding: .2rem 1rem;
+      padding: .2rem 0;
    }
    ul{
-      width: calc(100vw);
+      width: calc(90vw);
       left: 0;
+      right: 0;
       margin: auto;
    }
 
