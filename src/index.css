@@ -16,15 +16,34 @@ body{
 }
 
 .App{
-  margin: 2rem auto;
+  margin: o auto;
   border-radius: 10px;
-  padding: 1rem;
 }
 
 .contact{
+  background-image: url(../public/images/coverbg.png);
+  background-position: 100vw;
+  background-size: cover;
+  width: 100vw;
+  height: 60vh;
   display: grid;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  position: relative;
+  top: 0;
+}
+.contact > main{
+  height: inherit;
+  margin: auto;
+  
+}
+.contact > main > p{
+  width: 60%;
+  position: absolute;
+  bottom: 30px;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
 }
 .abt{
   background: #373737;
@@ -43,23 +62,6 @@ body{
   width: 90%;
   margin: auto;
   padding: 2rem;
-}
-.contact--img{
-  width: 100%;
-  border-radius: 50%;
-  margin: 1rem auto;
-  padding: 3rem;
-}
-.contact--details > h3{
-  font-weight: 700;
-  font-size: 45px;
-  margin-top: 2rem;
-}
-
-.contact--details > p{
-  color: rgb(219, 196, 196);
-  font-size: 23px;
-  font-weight: 800;
 }
 
 
@@ -150,12 +152,9 @@ small{
 /* ====== MEDIA QUERIES ====== */
 @media (max-width:900px){
   .App{
-    position: static;
     width: 100%;
     background-image: url(../public/images/7gRx.gif);
     background: inherit;
-    box-shadow: none;
-    margin-bottom: 100px;
   }
   .footer{
     display: none;
@@ -168,6 +167,9 @@ small{
   .hero{
     height: 100vh;
     position: relative;
+  }
+  .contact{
+    height: 80vh;
   }
   .toolabout{
     grid-template-columns: auto;
@@ -206,5 +208,8 @@ small{
   main{
     width: 90%;
     margin: auto;
+  }
+  .contact > main > p{
+    bottom: 90px;
   }
 }
