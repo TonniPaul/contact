@@ -23,7 +23,7 @@ body{
 
 .contact{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
   align-items: center;
 }
 .abt{
@@ -39,9 +39,10 @@ body{
 .toolabout{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  align-self: flex-start;
-  width: 80%;
+  align-items: flex-start;
+  width: 90%;
   margin: auto;
+  padding: 2rem;
 }
 .contact--img{
   width: 100%;

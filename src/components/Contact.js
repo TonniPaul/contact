@@ -1,11 +1,9 @@
-import paul from "../images/paul.png"
 import email from "../images/email.svg"
 import linkedin from "../images/linkedin.svg"
 
 function Contact(){
    return (
       <main className="contact">
-         <img src={paul} alt="paul" className="contact--img"/>
          <div className="contact--details">
             <h3>Paul O. Ariyo-Adeoye</h3>
             <p>Frontend Developer</p>

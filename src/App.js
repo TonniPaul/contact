@@ -12,7 +12,6 @@ function App() {
       <Nav />
       <div className="App">
         <Contact/>
-
         <div className="toolabout">
           <About />
           <Toolset/>
