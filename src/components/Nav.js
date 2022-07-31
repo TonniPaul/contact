@@ -45,7 +45,7 @@ function Nav (){
          </nav>
          <a href='http://wa.me/2348162325194/' className='whatsapp'>
                <i class="fa-brands fa-whatsapp"></i>
-            </a>
+         </a>
          </>
    )
 }

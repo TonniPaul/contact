@@ -8,6 +8,8 @@
 }
 body{
   background: #E5E5E5;
+  background-image: url(../public/images/7gRx.gif);
+  background-size: cover;
   font-family: 'Inter';
   font-weight: 400;
   color: #3700B3;
@@ -26,7 +28,7 @@ body{
   align-items: center;
 }
 .tpl{
-  color:#1F1F1F;
+  color:#fff;
   display: block;
   padding: 0;
 }
@@ -43,7 +45,7 @@ body{
 }
 
 .contact--details > p{
-  color: #30009C;
+  color: rgb(219, 196, 196);
   font-size: 23px;
   font-weight: 800;
 }
@@ -96,13 +98,13 @@ main{
   margin: auto;
   padding: 1rem 0;
   font-size: 16px;
-  color: #1F1F1F;
+  color: #fff;
 }
 
 main > h3{
   font-weight: 700;
   font-size: 20px;
-  color: #1F1F1F;
+  color: #fff;
 }
 
 main > p{
@@ -115,7 +117,7 @@ main > p{
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: #6200EE;
+  background-color: #373737;
   padding-bottom: 1rem ;
   bottom: 0;
   color: #EFE3FD;
@@ -137,7 +139,8 @@ small{
   .App{
     position: static;
     width: 100%;
-    background: #E5E5E5;
+    background-image: url(../public/images/7gRx.gif);
+    background: inherit;
     box-shadow: none;
     margin-bottom: 100px;
   }

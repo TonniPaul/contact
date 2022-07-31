@@ -4,7 +4,7 @@ nav{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background: #6200EE;
+   background: #373737;
    padding: 0 2rem;
 }
 ul{
@@ -55,21 +55,7 @@ h2{
    .icons > p{
       font-size: 11px;
    }  
-   ul{
-      width: 100%;
-      position: fixed;
-      bottom: 8px;
-      left: 50%;
-      border: 1px solid #6200EE;
-      background-color: #6200EE;
-      border-radius: 60px;
-      align-items: center;
-      justify-content: center;
-      width: max-content;
-      margin: auto;
-      margin-left: -25%;
-      padding: .2rem 1rem;
-   }
+ 
    i{
       font-size: 20px;
    }
@@ -81,6 +67,21 @@ h2{
       margin: auto;
       text-align: center;
       padding-bottom: 1rem;
+   }
+   ul{
+      width: 100%;
+      position: fixed;
+      bottom: 8px;
+      left: 50%;
+      border: 1px solid #373737;
+      background-color: #373737;
+      border-radius: 60px;
+      align-items: center;
+      justify-content: center;
+      width: max-content;
+      margin: auto;
+      margin-left: -25%;
+      padding: .2rem 1rem;
    }
    ul{
       width: calc(100vw);
