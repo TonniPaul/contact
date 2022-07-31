@@ -37,11 +37,12 @@ body{
   
 }
 .contact > main > p{
+  font-family: 'Square Peg', sans-serif;
   width: 60%;
   position: absolute;
   bottom: 30px;
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 900;
   margin: 0;
   padding: 0;
 }
