@@ -4,9 +4,7 @@ function Nav (){
    return(
       <>
          <nav>
-            <a href='#root'>
                <h2 className="logo"><span className='tt'> t</span><span>onni</span>Paul</h2>
-            </a>
             <ul>
                <li>
                   <a href="#about">
