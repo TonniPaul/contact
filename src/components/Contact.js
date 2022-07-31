@@ -3,6 +3,8 @@ import facbook from "../images/facebook.svg"
 import twitter  from "../images/twittericon.svg"
 import instagram from "../images/instagram.svg"
 import github from "../images/githubicon.svg"
+import email from "../images/email.svg"
+import linkedin from "../images/linkedin.svg"
 
 function Contact(){
    return(
@@ -52,6 +54,12 @@ function Contact(){
          </form>
          
          <div className='social'>
+            <a href="mailto:ariyoadeoyepaul@gmail.com" target='blank'>
+               <img src={email} alt="mail"/>
+            </a>
+            <a href="https://github.com/tonnipaul"target="blank">
+               <img src={linkedin} alt="linkedin"/>
+            </a>
             <a href="https://twitter.com/tonnipaul" target="blank">
                <img src={twitter} alt="twtr"/>
             </a>
@@ -62,10 +70,11 @@ function Contact(){
                <img src={instagram} alt="ig"/>
             </a>
             <a href="https://github.com/tonnipaul"target="blank">
-               <img src={github} alt="gh"/>
+               <img src={github} alt="github"/>
             </a>
+
          </div>
-         
+
          <div className='int'></div>
       </main>
    );
