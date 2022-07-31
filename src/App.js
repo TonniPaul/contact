@@ -4,6 +4,7 @@ import About from "./components/About";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Toolset from "./components/Toolset";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <About />
           <Toolset/>
         </div>
+        <Contact />
       </div>
       <Footer/>
     </div>

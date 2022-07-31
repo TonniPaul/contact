@@ -7,7 +7,7 @@ function Nav (){
                <h2 className="logo"><span className='tt'> t</span><span>onni</span>Paul</h2>
             <ul>
                <li>
-                  <a href="#about">
+                  <a href="#root">
                      <div className='icons'>
                      <i class="fa-solid fa-house"></i>
                         <p>Home</p>
@@ -23,7 +23,7 @@ function Nav (){
                   </a>
                </li>
                <li>
-                  <a href="#contact">
+                  <a href="#skills">
                      <div className='icons'>
                         <i class="fa-solid fa-laptop"></i>
                         <p>Projects</p>
