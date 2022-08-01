@@ -1,6 +1,6 @@
 # Redirects from what the browser requests to what we serve
-/home /index.html
-/about  /About
-/contact             /Contact
-/projects            /Projects
-/* /* 404
+/home /
+/About  /About
+/Contact             /Contact
+/Projects            /Projects
+/* /
