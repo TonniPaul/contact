@@ -7,7 +7,7 @@ function Nav (){
          <nav>
                <h2 className="logo"><span className='tt'> t</span><span>onni</span>Paul</h2>
             <ul>
-               <Link to='/'>
+               <Link to='/home'>
                   <li>
                         <div className='icons'>
                         <i class="fa-solid fa-house"></i>
