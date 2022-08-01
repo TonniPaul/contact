@@ -5,10 +5,12 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Toolset from "./components/Toolset";
 import Contact from "./components/Contact";
+import { Link } from "react-router-dom";
 
 
 function App() {
   return (
+    <Link to= '/'>
     <div className="hero">
       <Nav />
       <div className="App">
@@ -21,6 +23,7 @@ function App() {
       </div>
       <Footer/>
     </div>
+    </Link>
   );
 }
 

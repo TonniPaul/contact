@@ -30,13 +30,11 @@ function Contact(){
                </label>
             </p>
             <p>
-            <label for="service">Select a Service:</label>
+            <label for="service">Select a Service</label>
                <br />
                <select name="services" id="services">
                   <option value="select">Select a Service</option>
-                  <option value="UI/UX">UI UX</option>
                   <option value="web Design">WEB APP</option>
-                  <option value="Mobile App">Mobile App</option>
                </select>
             </p>
             <p>
