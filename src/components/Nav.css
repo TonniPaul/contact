@@ -79,8 +79,8 @@ h2{
       align-items: center;
       justify-content: center;
       width: max-content;
-      padding: 0;
-      width: calc(90vw);
+      padding: 0 2rem;
+      width: max-content;
       left: 0;
       right: 0;
       margin: 0 auto;
