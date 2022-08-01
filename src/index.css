@@ -67,8 +67,10 @@ body{
   padding: 2rem;
 }
 
-
 a{
+  text-decoration: none;
+}
+.aaa{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,10 +82,6 @@ a{
   text-decoration: none;
 }
 
-a > img{
-  padding: 0;
-  margin: 0;
-}
 .about--img{
   width: 40%;
   margin: auto;
