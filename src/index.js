@@ -8,6 +8,7 @@ import Nav from './components/Nav';
 import { MyAbout } from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import Invalidpage from './Invalidpage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -35,8 +36,18 @@ root.render(
             <Nav />     
             <Projects/> 
             <Footer/>
-          </>
+      </>
       } />
+      <Route path="*"
+      element={
+      <>
+            <Nav />     
+            <Invalidpage />
+            <Footer/>
+      </>
+      }
+    />
+
     </Routes>
   </BrowserRouter>
     

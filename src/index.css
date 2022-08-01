@@ -27,6 +27,24 @@ body{
 .myabout{
   margin: 20px auto;
 }
+/* ======== INVALID PAGE DESIGN====== */
+.invalid{
+  width: 80%;
+  height: 71.8vh;
+  margin: 18px auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary);
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+.invalid--img{
+  width: 50%;
+  margin: auto;
+}
 
 .hero-body{
   background-image: url(../public/images/coverbg.png);
