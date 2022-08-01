@@ -1,3 +1,10 @@
+:root{
+   --shadow: 0px 2px 2px #fff;
+   --txtshadow: -2px 2px 4px rgb(184, 170, 170);
+   --primary: #373737;
+   --primarytxt: #EFE3FD;
+   --primaryblack: #000;
+ }
 .contact--form{
    width: 50%;
    padding: 0 2rem;
@@ -13,8 +20,8 @@ label{
 }
 input, select, textarea{
    width: 100%;
-   background-color: #000;
-   color: #fff;
+   background-color: var(--primaryblack);
+   color: var(--primarytxt);
 }
 option{
    font-size: 13px;
@@ -36,8 +43,8 @@ input[type=text],input[type=email], select, textarea{
  }
  .form-submit {
    width: max-content;
-   background-color: #fff;
-   color: #000;
+   background-color: var(--primarytxt);
+   color: var(--primaryblack);
    padding: 1rem 2rem;
    margin: 8px 0;
    border: none;
@@ -45,8 +52,8 @@ input[type=text],input[type=email], select, textarea{
    cursor: pointer;
  }
  .form-submit:hover{
-   background-color: #000;
-   color: #fff;
+   background-color: var(--primaryblack);
+   color: var(--primarytxt);
    transition: all .5s ease-in-out;
  }
  .social{

@@ -1,3 +1,10 @@
+:root{
+   --shadow: 0px 2px 2px #fff;
+   --txtshadow: -2px 2px 4px rgb(184, 170, 170);
+   --primary: #373737;
+   --primarytxt: #EFE3FD;
+   --primaryblack: #000;
+ }
 .test{
    width: 50%;
    margin: auto;

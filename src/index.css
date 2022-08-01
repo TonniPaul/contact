@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 :root{
   --shadow: 0px 2px 2px #fff;
-  --txtshadow: -2px 2px 4px rgb(184, 170, 170)
+  --txtshadow: -2px 2px 4px rgb(184, 170, 170);
+  --primary: #373737;
+  --primarytxt: #EFE3FD;
+  --primaryblack: #000;
 }
 *{
   margin: 0;
@@ -9,12 +12,12 @@
   max-width: 100%;
 }
 body{
-  background:#373737;
+  background:var(--primary);
   background-image: url(../public/images/7gRx.gif);
   background-size: cover;
   font-family: 'Inter';
   font-weight: 400;
-  color: #fff;
+  color: var(--primarytxt);
 }
 
 .App{
@@ -49,10 +52,10 @@ body{
   padding: 0;
 }
 .abt{
-  background: #373737;
+  background: var(--primary);
   justify-content: center;
   padding: 2rem;
-  box-shadow: 0 2px 2px #fff;
+  box-shadow: 0 2px 2px var(--primarytxt);
   text-align: center;
 }
 .abt--paragraph{
@@ -118,10 +121,10 @@ main > h3{
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: #373737;
+  background-color: var(--primary);
   padding-bottom: 1rem ;
   bottom: 0;
-  color: #EFE3FD;
+  color: var(--primarytxt);
 }
 footer{
   display: flex;

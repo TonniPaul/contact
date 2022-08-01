@@ -5,7 +5,7 @@ function Hero(){
          <main>
             <p>
             👋 Hey! I'm Paul Oluwatoni, a Frontend developer. 
-            I'm currently learning ReactJS.
+            I create Awesome Web Applications.
             </p>
          </main>
       </div>

@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&family=Square+Peg&display=swap');
-
+:root{
+   --shadow: 0px 2px 2px #fff;
+   --txtshadow: -2px 2px 4px rgb(184, 170, 170);
+   --primary: #373737;
+   --primarytxt: #EFE3FD;
+   --primaryblack: #000;
+ }
 nav{
    display: flex;
    justify-content: space-between;
@@ -13,7 +19,7 @@ ul{
    list-style: none;
 }
 a{
-   color: #fff;
+   color: var(--primarytxt);
 }
 /* ====== logo design ====== */
 .tt{
@@ -22,7 +28,7 @@ a{
 h2{
    font-family: 'Square Peg';
    font-size: 50px;
-   text-shadow: -2px 2px 4px rgb(184, 170, 170);
+   text-shadow: var(--txtshadow);
 }
 .icons{
    display: flex;
@@ -33,7 +39,7 @@ h2{
    border: 2px solid #373737;
 }
 .icons:active, .icons:focus{
-   border-bottom: 2px solid #fff;
+   border-bottom: 2px solid var(--primarytxt);
 }
 .whatsapp{
    position: fixed;
@@ -41,7 +47,7 @@ h2{
    right: 10px;
    font-size: 50px;
    color: rgb(26, 84, 26);
-   text-shadow: -2px -3px 3px #fff;
+   text-shadow: -2px -3px 3px var(--primarytxt);
    z-index: 888;
 }
 @media (max-width:900px){
@@ -52,7 +58,7 @@ h2{
    }
    .icons:active, .icons:focus{
       border-radius: 10px;
-      background: #000;
+      background: var(--primaryblack);
    }
    .icons > p{
       font-size: 11px;
@@ -72,8 +78,8 @@ h2{
       gap: .5rem;
       bottom: 8px;
       left: 50%;
-      border: 1px solid #373737;
-      background-color: #373737;
+      border: 1px solid var(--primary);
+      background-color: var(--primary);
       border-radius: 60px;
       align-items: center;
       justify-content: center;
@@ -83,7 +89,7 @@ h2{
       left: 0;
       right: 0;
       margin: 0 auto;
-      box-shadow: 0px -1px .1px #fff;
+      box-shadow: 0px -1px .1px var(--primarytxt);
       z-index: 9999;
    } 
 
