@@ -1,14 +1,14 @@
 export default function Projects() {
    return(
-      <main className="int" style={{ 
+      <main className="int myabout" style={{ 
          display: "flex", 
          width:'80vw',
-         height: '80vh',
+         height: '20vh',
          background: "#fff" , 
          color: '#000',
          alignItems:'center',
          justifyContent: 'center',
-         margin:' auto'
+         margin:'10px auto 100px'
          }}>
          <h1>Under Construction</h1>
         

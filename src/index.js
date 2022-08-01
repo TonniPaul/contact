@@ -27,7 +27,12 @@ root.render(
             <Contact />
           </>
           }/>
-      <Route path='Projects' element= {<Projects/> } />
+      <Route path='Projects' element= {
+      <>
+            <Nav />     
+            <Projects/> 
+          </>
+      } />
     </Routes>
   </BrowserRouter>
     

@@ -1,4 +1,4 @@
-import paul from "../images/paul.png"
+import paul from "../images/paul.png";
 
 export  function About (){
    return (
