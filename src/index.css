@@ -102,6 +102,10 @@ a{
   margin: auto;
   border-radius: 50% 20%;
 }
+.abt--links{
+  background-color: var(--primaryblack);
+  padding: 0 1rem;
+}
 main{
   width: 80%;
   margin: auto;

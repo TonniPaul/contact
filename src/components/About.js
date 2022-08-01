@@ -28,8 +28,8 @@ export function MyAbout(){
       </p>
       <p className='abt--paragraph' >
          My  love for frontend development can be dated as far back as 2013 when I was 
-         building drag-and-drop websites on <a href='https://xtgem.com'>XTGEM</a>, 
-         <a href="https://wordpress.com">WordPress</a> and <a href="https://blogger.com">Blogger</a> 
+         building drag-and-drop websites on <a href='https://xtgem.com' className="abt--links">XTGEM</a>, 
+         <a href="https://wordpress.com" className="abt--links">WordPress</a> and <a href="https://blogger.com" className="abt--links">Blogger</a> 
          for fun and personal use. The journey took a break when I got admission into contrasting field.
       </p>
        <p className='abt--paragraph' >
