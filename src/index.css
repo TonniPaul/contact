@@ -12,8 +12,8 @@
   max-width: 100%;
 }
 body{
-  background:var(--primary);
-  background-image: url(../public/images/7gRx.gif);
+  background:#000;
+  background-image: url(../public/images/bgcol.gif);
   background-size: cover;
   font-family: 'Inter';
   font-weight: 400;
@@ -33,7 +33,7 @@ body{
   background-position: 100vw;
   background-size: cover;
   width: 100vw;
-  height: 60vh;
+  height: 92vh;
   display: grid;
   align-items: flex-end;
   position: relative;
@@ -45,10 +45,10 @@ body{
   
 }
 .hero--text{
-  width: 60%;
+  width: 50%;
   letter-spacing: 2px;
   position: absolute;
-  bottom: 40px;
+  bottom: 60px;
   font-size: 30px;
   font-weight: 900;
   margin: 0;

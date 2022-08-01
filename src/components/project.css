@@ -1,0 +1,13 @@
+.project{
+   background: #000; 
+   background-image: url(../images/HaD1.gif);
+   background-size: cover;
+   height: 50vh;
+   display: flex;
+   width:max-content;
+   color:#fff;
+   align-items:center;
+   justify-content: center;
+   margin:10px auto 100px;
+   padding: 3rem;
+}
