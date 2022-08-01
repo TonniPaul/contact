@@ -3,7 +3,7 @@
    --txtshadow: -2px 2px 4px rgb(184, 170, 170);
    --primary: #373737;
    --primarytxt: #EFE3FD;
-   --primaryblack: #000;
+   --primaryblack: #141010;
  }
 .contact--form{
    width: 50%;
@@ -46,15 +46,19 @@ input[type=text],input[type=email], select, textarea{
    background-color: var(--primarytxt);
    color: var(--primaryblack);
    padding: 1rem 2rem;
+   font-size: 15px;
+   font-weight: 600;
    margin: 8px 0;
    border: none;
    border-radius: 4px;
    cursor: pointer;
+   border: 1px solid var(--primarytxt);
  }
  .form-submit:hover{
    background-color: var(--primaryblack);
    color: var(--primarytxt);
    transition: all .5s ease-in-out;
+   
  }
  .social{
    display: none;

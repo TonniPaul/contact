@@ -3,7 +3,7 @@ function Hero(){
    return (
       <div className="hero-body">
          <main>
-            <p>
+            <p className="hero--text">
             👋 Hey! I'm Paul Oluwatoni, a Frontend developer. 
             I create Awesome Web Applications.
             </p>

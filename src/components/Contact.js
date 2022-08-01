@@ -47,7 +47,7 @@ function Contact(){
 
             <br/>
             <p>
-               <button type="submit" className='form-submit'>Submit Message</button>
+               <button type="submit" className='form-submit'>Send Message</button>
             </p>
          </form>
          
