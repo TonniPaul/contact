@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 :root{
   --shadow: 0px 2px 2px #fff;
+  --txtshadow: -2px 2px 4px rgb(184, 170, 170)
 }
 *{
   margin: 0;
@@ -61,7 +62,8 @@ body{
 }
 .abt--bold{
   font-weight: 900;
-  color: rgb(17, 13, 13);
+  color: #cccf;
+  text-shadow: var(--txtshadow);
   padding: .5rem;
 }
 .tpl{
