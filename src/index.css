@@ -194,4 +194,8 @@ small{
  .int{
   height: 50px;
  }
+ .myabout{
+  margin-top: 10px;
+  margin-bottom: 100px;
+ }
 }

@@ -17,7 +17,7 @@ export  function About (){
 }
 export function MyAbout(){
    return(
-      <main id="about" className="abt toolset">
+      <main id="about" className="abt toolset myabout">
       <h3>About</h3>
       <hr />
       <img src={paul} alt="paul" className="about--img"/>
