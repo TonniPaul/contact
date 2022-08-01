@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.572f8cbc.css",
+    "main.js": "/static/js/main.d5753297.js",
+    "static/media/7gRx.gif": "/static/media/7gRx.1483aaeaaf6e8f2f9f12.gif",
+    "static/media/bgcol.gif": "/static/media/bgcol.66feb24c8d5dd7802985.gif",
+    "static/media/coverbg.png": "/static/media/coverbg.9818ebcf5eac20d961c0.png",
+    "static/media/paul.png": "/static/media/paul.e653450943186ee8de9d.png",
+    "static/media/HaD1.gif": "/static/media/HaD1.80ba695aa1c5ba2280e5.gif",
+    "static/media/instagram.svg": "/static/media/instagram.c2b0bfe1696f41a36f0b0b385f062b6c.svg",
+    "static/media/githubicon.svg": "/static/media/githubicon.5c12db1373cf4b5bda17fb4e78999413.svg",
+    "static/media/twittericon.svg": "/static/media/twittericon.469c89b61fbf2563292b8c251021ce63.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.6ec10bba7cbdc558c79ab30715b788d3.svg",
+    "index.html": "/index.html",
+    "static/media/facebook.svg": "/static/media/facebook.469660e6bfc19315edfd5ebfcb3089b9.svg",
+    "static/media/email.svg": "/static/media/email.bc7798938ea67a4574682cdd4474b496.svg",
+    "static/media/danger.svg": "/static/media/danger.f91bcf39ec4715d1bb9f90b2b89e5a7b.svg",
+    "main.572f8cbc.css.map": "/static/css/main.572f8cbc.css.map",
+    "main.d5753297.js.map": "/static/js/main.d5753297.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.572f8cbc.css",
+    "static/js/main.d5753297.js"
+  ]
+}
