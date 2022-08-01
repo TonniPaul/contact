@@ -24,6 +24,9 @@ body{
   margin: o auto;
   border-radius: 10px;
 }
+.myabout{
+  margin: 20px auto;
+}
 
 .hero-body{
   background-image: url(../public/images/coverbg.png);

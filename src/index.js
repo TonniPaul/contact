@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Nav from './components/Nav';
 import { MyAbout } from './components/About';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,19 +19,22 @@ root.render(
       element={
         <>
           <Nav/ >
-        <MyAbout />
+          <MyAbout />
+          <Footer/>
         </>
     } />
       <Route path="Contact" element={  
           <>
             <Nav />     
             <Contact />
+            <Footer/>
           </>
           }/>
       <Route path='Projects' element= {
       <>
             <Nav />     
             <Projects/> 
+            <Footer/>
           </>
       } />
     </Routes>
