@@ -1,4 +1,6 @@
-/home /
-/About   /about
-/Projects   /projects
-/Contact /contact
+# Redirects from what the browser requests to what we serve
+/home              /
+/about  /About
+/contact             /Contact
+/projects            /Projects
+/* /*
