@@ -30,13 +30,11 @@ function Contact(){
                </label>
             </p>
             <p>
-            <label for="service">Select a Service:</label>
+            <label for="service">Select a Service</label>
                <br />
                <select name="services" id="services">
                   <option value="select">Select a Service</option>
-                  <option value="UI/UX">UI UX</option>
                   <option value="web Design">WEB APP</option>
-                  <option value="Mobile App">Mobile App</option>
                </select>
             </p>
             <p>
@@ -54,22 +52,22 @@ function Contact(){
          </form>
          
          <div className='social'>
-            <a href="mailto:ariyoadeoyepaul@gmail.com" target='blank'>
+            <a href="mailto:ariyoadeoyepaul@gmail.com" target='blank' className='aaa'>
                <img src={email} alt="mail"/>
             </a>
-            <a href="https://github.com/tonnipaul"target="blank">
+            <a href="https://github.com/tonnipaul"target="blank" className='aaa'>
                <img src={linkedin} alt="linkedin"/>
             </a>
-            <a href="https://twitter.com/tonnipaul" target="blank">
+            <a href="https://twitter.com/tonnipaul" target="blank" className='aaa'>
                <img src={twitter} alt="twtr"/>
             </a>
-            <a href="https://facebook.com/tofpaul" target="blank">
+            <a href="https://facebook.com/tofpaul" target="blank" className='aaa'>
                <img src={facbook} alt="fb"/>
             </a>
-            <a href="https://instagram.com/tonnipaul"target="blank">
+            <a href="https://instagram.com/tonnipaul"target="blank" className='aaa'>
                <img src={instagram} alt="ig"/>
             </a>
-            <a href="https://github.com/tonnipaul"target="blank">
+            <a href="https://github.com/tonnipaul"target="blank" className='aaa'>
                <img src={github} alt="github"/>
             </a>
 
