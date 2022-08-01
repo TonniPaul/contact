@@ -1,6 +1,5 @@
 import Hero from "./components/Hero";
 import About from "./components/About";
-// import Interests from "./components/Interests";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Toolset from "./components/Toolset";
