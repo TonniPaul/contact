@@ -38,7 +38,7 @@ function Nav (){
                      <a href="#contact">
                         <div className='icons'>
                            <i class="fa-solid fa-envelope"></i>
-                           <p>Contacts</p>
+                           <p>Contact</p>
                         </div>
                      </a>
                   </li>
