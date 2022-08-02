@@ -27,6 +27,12 @@ body{
 .myabout{
   margin: 20px auto;
 }
+.thank-you-home{
+  text-align: center;
+  display: grid;
+  gap: 10px;
+  margin-bottom: 30px;
+}
 /* ======== INVALID PAGE DESIGN====== */
 .invalid{
   width: 80%;

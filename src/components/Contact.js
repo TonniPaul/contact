@@ -12,7 +12,7 @@ export function Contact(){
    const [state, handleSubmit] = useForm("xvoypqjw");
    if (state.succeeded) {
        return (
-         <div className="invalid myabout">
+         <div className="thank-you-home">
             <h1> Thankyou for you message!!</h1>
             <p> TonniPaul typically responds within 24 hours</p>
          </div>
@@ -68,7 +68,7 @@ export function Contact(){
                   />
                </label>
             </p>
-            
+            <div class="g-recaptcha" data-sitekey="6LdY20AhAAAAAH5kAjnGOs-oJevMHIoxmSBgCBFX"></div>
 
             <br/>
             <p>
@@ -159,7 +159,7 @@ export function MyContact(){
                   />
                </label>
             </p>
-            
+            <div class="g-recaptcha" data-sitekey="6LdY20AhAAAAAH5kAjnGOs-oJevMHIoxmSBgCBFX"></div>
 
             <br/>
             <p>
