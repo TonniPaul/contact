@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 :root{
-  --shadow: 0px 2px 2px #fff;
+  --shadow: 0px 2px 2px #EFE3FD;
   --txtshadow: -2px 2px 4px rgb(184, 170, 170);
   --primary: #373737;
   --primarytxt: #EFE3FD;
