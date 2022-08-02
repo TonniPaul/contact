@@ -5,28 +5,48 @@ import instagram from "../images/instagram.svg"
 import github from "../images/githubicon.svg"
 import email from "../images/email.svg"
 import linkedin from "../images/linkedin.svg"
+import { useForm, ValidationError } from '@formspree/react';
+import Thankyou from './Thankyou'
 
-function Contact(){
+export function Contact(){
+   const [state, handleSubmit] = useForm("xvoypqjw");
+   if (state.succeeded) {
+       return (
+         <div className="invalid myabout">
+            <h1> Thankyou for you message!!</h1>
+            <p> TonniPaul typically responds within 24 hours</p>
+         </div>
+       );
+   }
    return(
       <main className="contact--form" id='contact'>
-         <form name="contact" netlify className="imputs" >
+         <form name="contact" className="imputs" onSubmit={handleSubmit}>
             <p>
                <label>First Name 
                   <br />
-                  <input type="text" name="firstname" />
+                  <input type="text" id='firstName' name="firstname" />
                </label>
             </p>
 
             <p>
                <label>Last Name 
                   <br />
-                  <input type="text" name="lastname" />
+                  <input type="text" id='lastname' name="lastname" />
                </label>
             </p>
             <p>
                <label>Email 
                   <br />
-                  <input type="email" name="email" />
+                  <input 
+                     id="email"
+                     type="email" 
+                     name="email"
+                   />
+                  <ValidationError 
+                     prefix="Email" 
+                     field="email"
+                     errors={state.errors}
+                  />
                </label>
             </p>
             <p>
@@ -40,14 +60,19 @@ function Contact(){
             <p>
                <label>Message 
                   <br />
-                  <textarea type="text" name="message" />
+                  <textarea id="message" name="message" />
+                  <ValidationError 
+                     prefix="Message" 
+                     field="message"
+                     errors={state.errors}
+                  />
                </label>
             </p>
             
 
             <br/>
             <p>
-               <button type="submit" className='form-submit'>Send Message</button>
+               <button type="submit" disabled={state.submitting} className='form-submit'>Send Message</button>
             </p>
          </form>
          
@@ -77,4 +102,94 @@ function Contact(){
       </main>
    );
 }
-export default Contact;
+export function MyContact(){
+   const [state, handleSubmit] = useForm("xvoypqjw");
+   if (state.succeeded) {
+       return (
+        <Thankyou/>
+       );
+   }
+   return(
+      <main className="contact--form" id='contact'>
+         <form name="contact" className="imputs" onSubmit={handleSubmit}>
+            <p>
+               <label>First Name 
+                  <br />
+                  <input type="text" id='firstName' name="firstname" />
+               </label>
+            </p>
+
+            <p>
+               <label>Last Name 
+                  <br />
+                  <input type="text" id='lastname' name="lastname" />
+               </label>
+            </p>
+            <p>
+               <label>Email 
+                  <br />
+                  <input 
+                     id="email"
+                     type="email" 
+                     name="email"
+                   />
+                  <ValidationError 
+                     prefix="Email" 
+                     field="email"
+                     errors={state.errors}
+                  />
+               </label>
+            </p>
+            <p>
+            <label for="service">Select a Service</label>
+               <br />
+               <select name="services" id="services">
+                  <option value="select">Select a Service</option>
+                  <option value="web Design">WEB APP</option>
+               </select>
+            </p>
+            <p>
+               <label>Message 
+                  <br />
+                  <textarea id="message" name="message" />
+                  <ValidationError 
+                     prefix="Message" 
+                     field="message"
+                     errors={state.errors}
+                  />
+               </label>
+            </p>
+            
+
+            <br/>
+            <p>
+               <button type="submit" disabled={state.submitting} className='form-submit'>Send Message</button>
+            </p>
+         </form>
+         
+         <div className='social'>
+            <a href="mailto:ariyoadeoyepaul@gmail.com" target='blank' className='aaa'>
+               <img src={email} alt="mail"/>
+            </a>
+            <a href="https://github.com/tonnipaul"target="blank" className='aaa'>
+               <img src={linkedin} alt="linkedin"/>
+            </a>
+            <a href="https://twitter.com/tonnipaul" target="blank" className='aaa'>
+               <img src={twitter} alt="twtr"/>
+            </a>
+            <a href="https://facebook.com/tofpaul" target="blank" className='aaa'>
+               <img src={facbook} alt="fb"/>
+            </a>
+            <a href="https://instagram.com/tonnipaul"target="blank" className='aaa'>
+               <img src={instagram} alt="ig"/>
+            </a>
+            <a href="https://github.com/tonnipaul"target="blank" className='aaa'>
+               <img src={github} alt="github"/>
+            </a>
+
+         </div>
+
+         <div className='int'></div>
+      </main>
+   );
+}

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import {BrowserRouter,Routes,Route,} from "react-router-dom";
 import './index.css';
 import App from './App';
-import Contact from './components/Contact';
+import {MyContact} from './components/Contact';
 import Nav from './components/Nav';
 import { MyAbout } from './components/About';
 import Projects from './components/Projects';
@@ -25,7 +25,7 @@ root.render(
       <Route path="Contact" 
       element={  
         <>
-          <Nav /> <Contact /> <Footer/>
+          <Nav /> <MyContact /> <Footer/>
         </>
       }/>
       <Route path='Projects' 
