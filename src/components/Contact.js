@@ -9,7 +9,7 @@ import linkedin from "../images/linkedin.svg"
 function Contact(){
    return(
       <main className="contact--form" id='contact'>
-         <form name="contact" netlify className="toolset imputs" >
+         <form name="contact" netlify className="imputs" >
             <p>
                <label>First Name 
                   <br />

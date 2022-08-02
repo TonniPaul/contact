@@ -98,7 +98,6 @@ body{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: flex-start;
-  width: 90%;
   margin: auto;
   padding: 2rem;
 }
