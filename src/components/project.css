@@ -2,12 +2,12 @@
    background: #000; 
    background-image: url(../images/HaD1.gif);
    background-size: cover;
-   height: 50vh;
+   height: 71.8vh;
+   margin: 18px auto;
    display: flex;
    width:max-content;
    color:#fff;
    align-items:center;
    justify-content: center;
-   margin:10px auto 100px;
-   padding: 3rem;
+   padding: 3rem 7rem;
 }

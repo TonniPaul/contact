@@ -19,34 +19,27 @@ root.render(
       <Route path="About" 
       element={
         <>
-          <Nav/ >
-          <MyAbout />
-          <Footer/>
+          <Nav/ > <MyAbout /> <Footer/>
         </>
-    } />
-      <Route path="Contact" element={  
-          <>
-            <Nav />     
-            <Contact />
-            <Footer/>
-          </>
-          }/>
-      <Route path='Projects' element= {
-      <>
-            <Nav />     
-            <Projects/> 
-            <Footer/>
-      </>
-      } />
+      }/>
+      <Route path="Contact" 
+      element={  
+        <>
+          <Nav /> <Contact /> <Footer/>
+        </>
+      }/>
+      <Route path='Projects' 
+      element= {
+        <>
+          <Nav /> <Projects/> <Footer/>
+        </>
+      }/>
       <Route path="*"
       element={
-      <>
-            <Nav />     
-            <Invalidpage />
-            <Footer/>
-      </>
-      }
-    />
+        <>
+          <Nav /> <Invalidpage /> <Footer/>
+        </>
+      }/>
 
     </Routes>
   </BrowserRouter>
