@@ -8,13 +8,18 @@ import linkedin from "../images/linkedin.svg"
 import { useForm, ValidationError } from '@formspree/react';
 import Thankyou from './Thankyou'
 
+
+// ======Function for Validating Input======
+
 export function Contact(){
-   const [state, handleSubmit] = useForm("xvoypqjw");
+   const [state, handleSubmit] = useForm("xvoypbrq");
    if (state.succeeded) {
        return (
          <div className="thank-you-home">
             <h1> Thankyou for you message!!</h1>
-            <p> TonniPaul typically responds within 24 hours</p>
+            <p> TonniPaul typically responds within 24 hours and 
+            would get back to you via the email provided. 
+            Make sure you input a Valid Email address.</p>
          </div>
        );
    }

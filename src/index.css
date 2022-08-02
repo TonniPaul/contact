@@ -31,7 +31,8 @@ body{
   text-align: center;
   display: grid;
   gap: 10px;
-  margin-bottom: 30px;
+  margin: 0 auto 30px ;
+  width: 50%;
 }
 /* ======== INVALID PAGE DESIGN====== */
 .invalid{
@@ -175,6 +176,9 @@ small{
     background-image: url(../public/images/7gRx.gif);
     background: inherit;
   }
+  .thank-you-home{
+    width: 80%;
+  }
 
  .toolabout{
   grid-template-columns: auto;
@@ -191,6 +195,9 @@ small{
   .hero{
     height: 100vh;
     position: relative;
+  }
+  .thank-you-home{
+    width: 100%;
   }
   .App{
     width: 100%;
