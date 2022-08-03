@@ -5,13 +5,16 @@ import ReactSwitch from 'react-switch';
 
 
 function Nav (){
+   function onSwitch(){
+      alert('TonniPaul is working on light mode');
+   }
  
    return(
       <>
          <nav>
             <div className='logocv'>
                <h2 className="logo"><span className='tt'> t</span><span>onni</span>Paul</h2>
-               <ReactSwitch/>
+               <ReactSwitch onChange={onSwitch}/>
             </div>
             <ul>
                <Link to='/home'>
