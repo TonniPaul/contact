@@ -1,11 +1,15 @@
 import './Nav.css';
+import pdf from '../cv/paulcv.pdf';
 import { Link } from "react-router-dom";
 
 function Nav (){
    return(
       <>
          <nav>
+            <div className='logocv'>
                <h2 className="logo"><span className='tt'> t</span><span>onni</span>Paul</h2>
+               <a href={pdf} target='blank' className='download'> Download CV</a>
+            </div>
             <ul>
                <Link to='/home'>
                   <li>

@@ -14,6 +14,20 @@ ul{
 a{
    color: var(--primarytxt);
 }
+.logocv{
+   width: 50%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 4rem;
+}
+.download{
+   padding: .5rem 1rem;
+   background-color: var(--primarytxt);
+   color: var(--primary);
+   border: 1px solid var(--primaryblack);
+   border-radius: 20px 9px;
+}
 /* ====== logo design ====== */
 .tt{
    font-family: 'Great Vibes', sans-serif;
@@ -44,6 +58,13 @@ h2{
    z-index: 888;
 }
 @media (max-width:900px){
+   naV{
+      flex-direction: column;
+      width: 100%;
+   }
+   .logocv{
+      width: 100%;
+   }
    .icons{
       flex-direction: column;
       margin: auto;
