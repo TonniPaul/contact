@@ -6,7 +6,7 @@ import ReactSwitch from 'react-switch';
 
 function Nav (){
    function onSwitch(){
-      alert('TonniPaul is working on light mode');
+      alert('TonniPaul is working on toggling light and dark mode');
    }
  
    return(
