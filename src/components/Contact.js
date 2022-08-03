@@ -37,6 +37,11 @@ export function Contact(){
                   <br />
                   <input type="text" id='firstName' name="firstname" />
                </label>
+               <ValidationError 
+                     prefix="FirstName" 
+                     field="firstname"
+                     errors={state.errors}
+                  />
             </p>
 
             <p>
@@ -44,6 +49,11 @@ export function Contact(){
                   <br />
                   <input type="text" id='lastname' name="lastname" />
                </label>
+               <ValidationError 
+                     prefix="Lastname" 
+                     field="lastname"
+                     errors={state.errors}
+                  />
             </p>
             <p>
                <label>Email 
