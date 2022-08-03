@@ -190,8 +190,27 @@ small{
   height: 0;
 }
 .hero-body{
-  height: 70vh;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+.hero--text{
+  width: 70%;
+  bottom: 130px;
+  font-size: 25px;
+  z-index: 888999;
+}
+main{
+  width: 90%;
+  margin: auto;
+}
+.footer{
+  display: none;
+}
+.int{
+  height: 90px;
+ }
 }
 @media (max-width:500px){
   .hero{
@@ -212,32 +231,12 @@ small{
     height: max-content;
     padding: 0;
   }
-  .hero-body{
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .hero--text{
-    width: 70%;
-    bottom: 130px;
-    font-size: 25px;
-    z-index: 888999;
-  }
+
   .tpl{
     font-size: 13px;
   }
-  main{
-    width: 90%;
-    margin: auto;
-  }
 
-  .footer{
-    display: none;
- }
- .int{
-  height: 50px;
- }
+
  .myabout{
   margin-top: 10px;
   margin-bottom: 100px;
