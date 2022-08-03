@@ -1,10 +1,15 @@
-
 .toolset{
-   background: #373737;
-   box-shadow: var(--shadow);
+   background: var(--primary);
    text-align: center;
    font-size: 20px;
    padding: 2rem;
+}
+#light .toolset{
+   background: var(--primarylight);
+   box-shadow: var(--shadow);
+}
+hr{
+   border: 2px solid var(--primarytxt);
 }
 .toolset >h3{
    padding: 1rem;

@@ -1,5 +1,5 @@
 .project{
-   background: #000; 
+   background: var(--primary); 
    background-image: url(../images/HaD1.gif);
    background-size: cover;
    height: 71.8vh;
@@ -10,4 +10,8 @@
    align-items:center;
    justify-content: center;
    padding: 3rem 7rem;
+}
+#light .project{
+   background: var(--primarylight);
+   background-image: url(../images/HaD1.gif);
 }

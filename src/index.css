@@ -3,23 +3,32 @@
   --shadow: 0px 2px 2px #EFE3FD;
   --txtshadow: -2px 2px 4px rgb(184, 170, 170);
   --primary: #373737;
+  --primarylight: #6173AC;
   --primarytxt: #EFE3FD;
   --primaryblack: #141010;
+  --white: #fff;
+  --black: #455A64;
+  --ligthboxshadow: 0px 2px 2px #455A64;
 }
+body{
+  background-color: var(--primary);
+  background-image: url(../public/images/bgcol.gif);
+  background-size: cover;
+  color: var(--primarytxt);
+  font-family: 'Inter';
+  font-weight: 400;
+}
+#light{
+  background-color: aliceblue;
+  color: var(--primarytxt);
+  background-size: cover;
+}
+
 *{
   margin: 0;
   box-sizing: border-box;
   max-width: 100%;
 }
-body{
-  background:#000;
-  background-image: url(../public/images/bgcol.gif);
-  background-size: cover;
-  font-family: 'Inter';
-  font-weight: 400;
-  color: var(--primarytxt);
-}
-
 .App{
   margin: o auto;
   border-radius: 10px;
@@ -28,13 +37,16 @@ body{
   margin: 20px auto;
 }
 .thank-you-home{
-  background-color: #000;
   padding: 1rem;
   text-align: center;
   display: grid;
   gap: 10px;
   margin: 10px auto  ;
   width: 50%;
+  background-color: var(--primary);
+}
+#light .thank-you-home{
+  background-color: var(--primarylight);
 }
 /* ======== INVALID PAGE DESIGN====== */
 .invalid{
@@ -44,11 +56,11 @@ body{
   display: grid;
   justify-content: center;
   align-items: center;
-  background: var(--primary);
-  box-shadow: var(--shadow);
   padding: 2rem;
   text-align: center;
   text-transform: capitalize;
+  background: var(--primary);
+  box-shadow: var(--shadow);
 }
 .invalid--img{
   width: 50%;
@@ -56,8 +68,8 @@ body{
 }
 
 .hero-body{
-  background-image: url(../public/images/coverbg.png);
   background-position: 100vw;
+  background-image: url(../public/images/coverbg.png);
   background-size: cover;
   width: 100vw;
   height: 92vh;
@@ -66,10 +78,12 @@ body{
   position: relative;
   top: 0;
 }
+#light .hero-body{
+  background-image: url(../public/images/herobackground\ light.gif);
+}
 .hero-body > main{
   height: inherit;
   margin: auto;
-  
 }
 .hero--text{
   width: 50%;
@@ -81,23 +95,40 @@ body{
   margin: 0;
   padding: 0;
 }
+#light .hero--text{
+  color: var(--black);
+  text-shadow: 1px 1px 1px var(--primaryblack);
+  background-color: var(--primarytxt);
+  padding: 1rem;
+  opacity: .8;
+}
 .abt{
-  background: var(--primary);
   justify-content: center;
   padding: 2rem;
-  box-shadow: 0 2px 2px var(--primarytxt);
   text-align: center;
+  background: var(--primary);
+  box-shadow: 0 2px 2px var(--primarytxt);
+}
+#light .abt{
+  background: var(--primarylight);
+  box-shadow: 0 2px 2px var(--black);
 }
 .abt--paragraph{
   display: block;
   text-align: left;
   margin: .5rem 0;
 }
+#light .abt--paragraph{
+  color: var(--primarytxt);
+}
 .abt--bold{
   font-weight: 900;
-  color: #cccf;
   text-shadow: var(--txtshadow);
   padding: .5rem;
+  color: #cccf;
+}
+#light .abt--bold{
+  color: var(--black);
 }
 .tpl{
   display: block;
@@ -120,10 +151,13 @@ a{
   justify-content: center;
   font-weight: 500;
   padding: 9px 13px 9px 11px;
-  box-shadow: 0px 1px 2px var(--primary);
   border-radius: 6px;
   gap: 8px;
   text-decoration: none;
+  box-shadow: 0px 1px 2px var(--primary);
+}
+#light .aaa{
+  box-shadow: 0px 1px 2px var(--primarylight);
 }
 
 .about--img{
@@ -147,7 +181,6 @@ main > h3{
   font-size: 20px;
 }
 
-
 .footer{
   display: flex;
   flex-direction: column;
@@ -158,6 +191,9 @@ main > h3{
   padding-bottom: 1rem ;
   bottom: 0;
   color: var(--primarytxt);
+}
+#light .footer{
+  background-color: var(--primarylight);
 }
 footer{
   display: flex;
