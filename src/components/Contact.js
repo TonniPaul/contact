@@ -35,7 +35,7 @@ export function Contact(){
             <p>
                <label>First Name 
                   <br />
-                  <input type="text" id='firstName' name="firstname" />
+                  <input type="text" id='firstName' name="firstname" required/>
                </label>
                <ValidationError 
                      prefix="FirstName" 
@@ -47,7 +47,7 @@ export function Contact(){
             <p>
                <label>Last Name 
                   <br />
-                  <input type="text" id='lastname' name="lastname" />
+                  <input type="text" id='lastname' name="lastname" required/>
                </label>
                <ValidationError 
                      prefix="Lastname" 
@@ -62,6 +62,7 @@ export function Contact(){
                      id="email"
                      type="email" 
                      name="email"
+                     required
                    />
                   <ValidationError 
                      prefix="Email" 
@@ -73,15 +74,16 @@ export function Contact(){
             <p>
             <label for="service">Select a Service</label>
                <br />
-               <select name="services" id="services">
-                  <option value="select">Select a Service</option>
-                  <option value="web Design">WEB APP</option>
+               <select name="services" id="services" required>
+                  <option value="none" selected disabled hidden>Select an Option</option>
+                  <option value="web Design">WEB SiTE Design</option>
+                  <option value="web management">WEBSITE Management</option>
                </select>
             </p>
             <p>
                <label>Message 
                   <br />
-                  <textarea id="message" name="message" />
+                  <textarea id="message" name="message" required />
                   <ValidationError 
                      prefix="Message" 
                      field="message"
@@ -89,8 +91,7 @@ export function Contact(){
                   />
                </label>
             </p>
-            <div class="g-recaptcha" data-sitekey="6LdY20AhAAAAAH5kAjnGOs-oJevMHIoxmSBgCBFX"></div>
-
+          
             <br/>
             <p>
                <button type="submit" disabled={state.submitting} className='form-submit'>Send Message</button>
@@ -124,7 +125,7 @@ export function Contact(){
    );
 }
 export function MyContact(){
-   const [state, handleSubmit] = useForm("xvoypqjw");
+   const [state, handleSubmit] = useForm("xvoypbrq");
    if (state.succeeded) {
        return (
         <Thankyou/>
@@ -136,14 +137,14 @@ export function MyContact(){
             <p>
                <label>First Name 
                   <br />
-                  <input type="text" id='firstName' name="firstname" />
+                  <input type="text" id='firstName' name="firstname" required/>
                </label>
             </p>
 
             <p>
                <label>Last Name 
                   <br />
-                  <input type="text" id='lastname' name="lastname" />
+                  <input type="text" id='lastname' name="lastname" required/>
                </label>
             </p>
             <p>
@@ -153,6 +154,7 @@ export function MyContact(){
                      id="email"
                      type="email" 
                      name="email"
+                     required
                    />
                   <ValidationError 
                      prefix="Email" 
@@ -164,15 +166,16 @@ export function MyContact(){
             <p>
             <label for="service">Select a Service</label>
                <br />
-               <select name="services" id="services">
-                  <option value="select">Select a Service</option>
-                  <option value="web Design">WEB APP</option>
+               <select name="services" id="services" required>
+                  <option value="none" selected disabled hidden>Select an Option</option>
+                  <option value="web Design">WEB SiTE Design</option>
+                  <option value="web management">WEBSITE Management</option>
                </select>
             </p>
             <p>
                <label>Message 
                   <br />
-                  <textarea id="message" name="message" />
+                  <textarea id="message" name="message" required/>
                   <ValidationError 
                      prefix="Message" 
                      field="message"
@@ -180,7 +183,6 @@ export function MyContact(){
                   />
                </label>
             </p>
-            <div class="g-recaptcha" data-sitekey="6LdY20AhAAAAAH5kAjnGOs-oJevMHIoxmSBgCBFX"></div>
 
             <br/>
             <p>
