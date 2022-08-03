@@ -25,7 +25,9 @@ a{
    padding: .5rem 1rem;
    background-color: var(--primarytxt);
    color: var(--primary);
-   border: 1px solid var(--primaryblack);
+   font-weight: 700;
+   border: 2px solid var(--primaryblack);
+   box-shadow: var(--shadow);
    border-radius: 20px 9px;
 }
 /* ====== logo design ====== */
