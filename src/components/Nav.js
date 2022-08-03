@@ -14,7 +14,7 @@ function Nav (){
          <nav>
             <div className='logocv'>
                <h2 className="logo"><span className='tt'> t</span><span>onni</span>Paul</h2>
-               <ReactSwitch onChange={onSwitch}/>
+               <ReactSwitch onChange={onSwitch} checked/>
             </div>
             <ul>
                <Link to='/home'>
