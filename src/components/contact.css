@@ -12,7 +12,7 @@
  }
 .contact--form{
    width: 40%;
-   margin:auto;
+   margin: 1rem auto;
 }
 label{
    text-align: left;
@@ -22,7 +22,6 @@ label{
    box-shadow: var(--shadow);
    padding: 2rem;
    text-align: left;
-   font-size: 15px;
 }
 #light .imputs {
    background-color: var(--primarylight);

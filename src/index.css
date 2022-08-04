@@ -93,13 +93,12 @@ body{
   font-size: 30px;
   font-weight: 900;
   margin: 0;
-  padding: 0;
+  padding: 1rem;
+  left: 60px;
 }
 #light .hero--text{
   color: var(--black);
-  text-shadow: 1px 1px 1px var(--primaryblack);
   background-color: var(--primarytxt);
-  padding: 1rem;
   opacity: .8;
 }
 .abt{
@@ -140,6 +139,7 @@ body{
   align-items: flex-start;
   margin: auto;
   padding: 2rem;
+  gap: 3rem;
 }
 
 a{
@@ -169,12 +169,7 @@ a{
   background-color: var(--primaryblack);
   padding: 0 1rem;
 }
-main{
-  width: 80%;
-  margin: auto;
-  padding: 1rem 0;
-  font-size: 16px;
-}
+
 
 main > h3{
   font-weight: 700;
@@ -245,7 +240,7 @@ main{
   display: none;
 }
 .int{
-  height: 90px;
+  height: 40px;
  }
 }
 @media (max-width:500px){
