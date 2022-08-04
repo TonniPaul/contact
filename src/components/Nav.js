@@ -1,5 +1,4 @@
 import './Nav.css';
-import pdf from '../cv/paulcv.pdf';
 import { Link } from "react-router-dom";
 import ReactSwitch from 'react-switch';
 

@@ -15,6 +15,8 @@ body{
   background-color: var(--primary);
   background-image: url(../public/images/bgcol.gif);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: var(--primarytxt);
   font-family: 'Inter';
   font-weight: 400;
@@ -26,7 +28,10 @@ body{
 #light{
   background-color: aliceblue;
   color: var(--lighttext);
+  background-image: url(../public/images/lightbggg.gif);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 *{
@@ -74,8 +79,10 @@ body{
 
 .hero-body{
   background-position: 100vw;
-  background-image: url(../public/images/coverbg.png);
+  background-image: url(../public/images/black.gif);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100vw;
   height: 92vh;
   display: grid;
@@ -84,8 +91,7 @@ body{
   top: 0;
 }
 #light .hero-body{
-  background-image: url(../public/images/newlight.gif);
-  background-position:right 7%;
+  background-image: url(../public/images/nnnnn.gif);
 }
 .hero-body > main{
   height: inherit;
@@ -101,11 +107,13 @@ body{
   margin: 0;
   padding: 1rem;
   left: 60px;
+  background-color: var(--primarytxt);
+  color: var(--primary);
+  opacity: .8;
 }
 #light .hero--text{
   color: var(--black);
-  background-color: var(--primarytxt);
-  opacity: .8;
+  
 }
 .abt{
   justify-content: center;
@@ -207,7 +215,6 @@ small{
 @media (max-width:900px){
   .App{
     width: 100%;
-    background-image: url(../public/images/7gRx.gif);
     background: inherit;
   }
   .thank-you-home{
@@ -227,9 +234,7 @@ small{
   flex-direction: column;
   justify-content: center;
 }
-#light .hero-body{
-  background-position:bottom -70%;
-}
+
 .hero--text{
   width: 70%;
   bottom: 130px;
