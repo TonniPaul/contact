@@ -55,10 +55,8 @@ function Nav (){
             </ul>
           
          </nav>
-         <Link to='/whatsapp'>
-            <a href='http://wa.me/2348162325194/' className='whatsapp'>
+         <Link to='/whatsapp' className='whatsapp'>
                   <i class="fa-brands fa-whatsapp"></i>
-            </a>
          </Link>
          </>
    )

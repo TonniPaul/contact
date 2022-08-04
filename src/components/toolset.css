@@ -1,5 +1,8 @@
 .toolset{
    background: var(--primary);
+   width: 80%;
+   margin: 0 auto;
+   height: max-content;
    text-align: center;
    font-size: 20px;
    padding: 2rem;
@@ -15,6 +18,7 @@ hr{
    border: 2px solid var(--lighttext);
 }
 .toolset >h3{
+   font-size: 30px;
    padding: 1rem;
 }
 .toolset > div{
