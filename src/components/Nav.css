@@ -6,9 +6,10 @@ nav{
    padding: 0 2rem;
    background: var(--primary);
 }
+
 #light nav{
    background: var(--primarylight);
-   color: var(--primarytxt);
+   color: var(--lighttext);
 }
 ul{
    display: flex;
@@ -40,7 +41,7 @@ a{
 }
 #light .download{
    background-color: var(--primarylight);
-   color: var(--primarytxt);
+   color: var(--lighttext);
 }
 /* ====== logo design ====== */
 .tt{
@@ -61,6 +62,7 @@ h2{
 }
 #light .icons{
    border: 2px solid var(--primarylight);
+   color: var(--lighttext);
 }
 .icons:active, .icons:focus{
    border-bottom: 2px solid var(--primarytxt);

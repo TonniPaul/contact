@@ -20,12 +20,13 @@ export function Contact(){
    if (state.succeeded) {
        return (
          <>
-         <div className="thank-you-home" id='light'>
+         <div className="thank-you-home" >
             <h1> Thankyou for your message!!</h1>
             <p> TonniPaul typically responds within 24 hours and 
             would get back to you via the email provided. 
             Make sure you input a Valid Email address.</p>
          </div>
+         <div className='int'></div>
          </>
        );
    }

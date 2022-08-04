@@ -11,6 +11,9 @@
 hr{
    border: 2px solid var(--primarytxt);
 }
+#light hr{
+   border: 2px solid var(--lighttext);
+}
 .toolset >h3{
    padding: 1rem;
 }

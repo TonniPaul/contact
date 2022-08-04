@@ -3,11 +3,12 @@
   --shadow: 0px 2px 2px #EFE3FD;
   --txtshadow: -2px 2px 4px rgb(184, 170, 170);
   --primary: #373737;
-  --primarylight: #6173AC;
+  --primarylight: #0B246E;
+  --lighttext: #36E7F7;
   --primarytxt: #EFE3FD;
   --primaryblack: #141010;
   --white: #fff;
-  --black: #455A64;
+  --black: #4661AD;
   --ligthboxshadow: 0px 2px 2px #455A64;
 }
 body{
@@ -18,9 +19,13 @@ body{
   font-family: 'Inter';
   font-weight: 400;
 }
+/* #dark{
+  background-image: url(../public/images/bgcol.gif);
+} */
+ /* I will move the background image to dark id when it works fully */
 #light{
   background-color: aliceblue;
-  color: var(--primarytxt);
+  color: var(--lighttext);
   background-size: cover;
 }
 
@@ -79,7 +84,8 @@ body{
   top: 0;
 }
 #light .hero-body{
-  background-image: url(../public/images/herobackground\ light.gif);
+  background-image: url(../public/images/newlight.gif);
+  background-position:right 7%;
 }
 .hero-body > main{
   height: inherit;
@@ -116,9 +122,6 @@ body{
   display: block;
   text-align: left;
   margin: .5rem 0;
-}
-#light .abt--paragraph{
-  color: var(--primarytxt);
 }
 .abt--bold{
   font-weight: 900;
@@ -185,7 +188,6 @@ main > h3{
   background-color: var(--primary);
   padding-bottom: 1rem ;
   bottom: 0;
-  color: var(--primarytxt);
 }
 #light .footer{
   background-color: var(--primarylight);
@@ -194,7 +196,6 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
-  
   padding: .6rem;
   border-radius: 0px 0px 10px 10px;
 }
@@ -226,11 +227,15 @@ small{
   flex-direction: column;
   justify-content: center;
 }
+#light .hero-body{
+  background-position:bottom -70%;
+}
 .hero--text{
   width: 70%;
   bottom: 130px;
   font-size: 25px;
   z-index: 888999;
+  left: 20px;
 }
 main{
   width: 90%;
@@ -250,11 +255,8 @@ main{
   }
   .thank-you-home{
     width: 100%;
-    padding: 2rem 2rem 7rem;
-  }
-  .thank-you-home > p, .thank-you-home > h1{
-    width: 80%;
-    margin: auto;
+    padding: 2rem 3rem;
+    margin-bottom: 4rem;
   }
   .App{
     width: 100%;
