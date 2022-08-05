@@ -1,19 +1,21 @@
 import './Nav.css';
 import { Link } from "react-router-dom";
 import ReactSwitch from 'react-switch';
+import { useState } from 'react';
 
 
 function Nav (){
-   function onSwitch(){
-      alert('TonniPaul is working on toggling light and dark mode');
+   const [theme, setTheme] = useState('light');
+
+   const toggleTheme = () =>{
+     setTheme((currentTheme) => (currentTheme === 'light'? 'dark': 'lightx'))
    }
- 
    return(
       <>
          <nav>
             <div className='logocv'>
                <h2 className="logo"><span className='tt'> t</span><span>onni</span>Paul</h2>
-               <ReactSwitch onChange={onSwitch} checked/>
+               <ReactSwitch onChange={toggleTheme} checked={theme==='light'}/>
             </div>
             <ul>
                <Link to='/home'>
@@ -55,8 +57,10 @@ function Nav (){
             </ul>
           
          </nav>
-         <Link to='/whatsapp' className='whatsapp'>
+         <Link to={{ whatsapp: "https://example.com" }}>
+            <a href='http://wa.me/2348162325194/' className='whatsapp'>
                   <i class="fa-brands fa-whatsapp"></i>
+            </a>
          </Link>
          </>
    )

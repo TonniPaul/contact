@@ -102,15 +102,16 @@ body{
   width: 50%;
   letter-spacing: 2px;
   position: absolute;
-  bottom: 65px;
-  font-size: 30px;
+  bottom: 85px;
+  font-size: 40px;
+  line-height: 60px;
   font-weight: 900;
   margin: 0;
   padding: 1rem;
   left: 60px;
   background-color: var(--primarytxt);
   color: var(--primary);
-  opacity: .8;
+  opacity: .879;
 }
 #light .hero--text{
   color: var(--black);
@@ -236,7 +237,8 @@ small{
 
 .hero--text{
   width: 70%;
-  bottom: 130px;
+  bottom: 142px;
+  line-height: 30px;
   font-size: 25px;
   z-index: 888999;
   left: 20px;
