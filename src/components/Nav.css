@@ -131,8 +131,8 @@ a{
       line-height: 1px;
    } 
    #light ul{
-      box-shadow: 0px -1px .1px var(--primarytxt);
-      border-bottom:1px solid var(--primarylight);
+      box-shadow: 0px -1px .1px var(--lighttext);
+      border-bottom:1px solid var(--lighttext);
       background-color: var(--primarylight);
    }
 }
