@@ -1,4 +1,6 @@
 import paul from "../images/paultol.png";
+import Footer from "./Footer";
+import Nav from "./Nav";
 
 export  function About (){
    return (
@@ -18,6 +20,9 @@ export  function About (){
 }
 export function MyAbout(){
    return(
+      <>
+         <Nav/>
+      
       <main id="about" className="abt toolset myabout">
       <h3>About</h3>
       <hr />
@@ -44,5 +49,7 @@ export function MyAbout(){
       I try to keep up with web security and best practices.
       </p>
    </main>
+   <Footer/>
+   </>
    )
 }

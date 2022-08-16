@@ -1,7 +1,12 @@
 import invalidimg from './images/danger.svg';
 import { Link } from 'react-router-dom';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
 export default function Invalidpage(){
    return (
+      <>
+         <Nav/>
+      
          <div className="invalid myabout">
             <h4>Error 404</h4>
             <img src={ invalidimg } alt='invalid img' className='invalid--img'/>
@@ -11,5 +16,7 @@ export default function Invalidpage(){
 
          <Link to='/'><button className='form-submit'>Click to home</button> </Link>
          </div>
+         <Footer/>
+      </>
    );
 }

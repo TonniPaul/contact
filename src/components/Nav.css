@@ -6,7 +6,12 @@ nav{
    padding: 1rem 2rem;
    background: var(--primary);
 }
-
+.logo{
+   font-family: 'Square Peg';
+   font-size: 50px;
+   margin: 0;
+   text-shadow: var(--txtshadow);
+}
 #light nav{
    background: var(--primarylight);
    color: var(--lighttext);
@@ -46,11 +51,6 @@ a{
 /* ====== logo design ====== */
 .tt{
    font-family: 'Great Vibes', sans-serif;
-}
-h2{
-   font-family: 'Square Peg';
-   font-size: 50px;
-   text-shadow: var(--txtshadow);
 }
 .icons{
    display: flex;
@@ -128,7 +128,6 @@ h2{
       border-bottom:1px solid var(--primarylight);
       background-color: var(--primarylight);
    }
-
 }
 
 @media(max-width:500px){
@@ -136,5 +135,4 @@ h2{
       display: block;
       margin: auto;
    }
-   
 }

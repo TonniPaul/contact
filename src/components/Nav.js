@@ -1,21 +1,15 @@
 import './Nav.css';
 import { Link } from "react-router-dom";
-import ReactSwitch from 'react-switch';
-import { useState } from 'react';
+
 
 
 function Nav (){
-   const [theme, setTheme] = useState('light');
 
-   const toggleTheme = () =>{
-     setTheme((currentTheme) => (currentTheme === 'light'? 'dark': 'lightx'))
-   }
    return(
       <>
          <nav>
             <div className='logocv'>
                <h2 className="logo"><span className='tt'> t</span><span>onni</span>Paul</h2>
-               <ReactSwitch onChange={toggleTheme} checked={theme==='light'}/>
             </div>
             <ul>
                <Link to='/home'>

@@ -6,10 +6,8 @@ import './index.css';
 // {Import pages for routing}
 import App from './App';
 import {MyContact} from './components/Contact';
-import Nav from './components/Nav';
 import { MyAbout } from './components/About';
 import Projects from './components/Projects';
-import Footer from './components/Footer';
 import Invalidpage from './Invalidpage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,10 +16,10 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path='/home' element={<App/>}/>
-      <Route path="About" element={<> <Nav/ > <MyAbout /> <Footer/></>}/>
-      <Route path="Contact" element={ <><Nav /> <MyContact /> <Footer/></>}/>
-      <Route path='Projects' element= {<><Nav /> <Projects/> <Footer/></>}/>
-      <Route path="*" element={<><Nav /> <Invalidpage /> <Footer/></>}/>
+      <Route path="About" element={<MyAbout />}/>
+      <Route path="Contact" element={ <MyContact />}/>
+      <Route path='Projects' element= {<Projects/>}/>
+      <Route path="*" element={<Invalidpage />}/>
     </Routes>
   </BrowserRouter>
 );

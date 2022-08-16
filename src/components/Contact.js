@@ -10,6 +10,8 @@ import Thankyou from './Thankyou';
 
 // ======form database import======
 import { useForm, ValidationError } from '@formspree/react';
+import Nav from './Nav';
+import Footer from './Footer';
 
 
 
@@ -133,6 +135,9 @@ export function MyContact(){
        );
    }
    return(
+      <>
+         <Nav/>
+      
       <main className="contact--form" id='contact'>
          <form name="contact" className="imputs" onSubmit={handleSubmit}>
             <p>
@@ -215,5 +220,7 @@ export function MyContact(){
 
          <div className='int'></div>
       </main>
+      <Footer/>
+      </>
    );
 }
