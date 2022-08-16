@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&family=Square+Peg&display=swap');
 nav{
+   background: var(--primary);
+}
+.navdiv{
    display: flex;
    justify-content: space-between;
    align-items: center;
+   margin: auto;
    padding: 1rem 2rem;
-   background: var(--primary);
+   max-width: 1440px;
 }
+
 .logo{
    font-family: 'Square Peg';
    font-size: 50px;

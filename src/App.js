@@ -28,7 +28,9 @@ function App() {
             <About />
             <Toolset/>
           </div>
-          <Contact />
+          <div className="ccontact">
+            <Contact />
+          </div>
         </div>
         <Footer/>
       </div>
