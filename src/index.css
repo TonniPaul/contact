@@ -95,13 +95,14 @@ body{
   padding: 0;
   align-items: flex-end;
   position: relative;
+  top: -40px;
 }
 #light .hero-body{
   background-image: url(../public/images/nnnnn.gif);
 }
 .hero-body > main{
   height: inherit;
-  margin: auto;
+  margin: 0 auto;
 }
 .hero--text{
   width: 50%;
