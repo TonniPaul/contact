@@ -173,10 +173,11 @@ a{
 
 .about--img{
   width: 40%;
-  margin:2rem auto;
-  border-radius:20% 50% ;
-  animation: about--img infinite 50s linear;
+  margin:3rem auto;
+  border-radius:20% ;
+  animation: about--img infinite 3s ease-in-out;
 }
+
 .abt--links{
   background-color: var(--primaryblack);
   padding: 0 1rem;
@@ -291,9 +292,9 @@ small{
 
 @keyframes about--img {
   from {
-    transform: rotate(0deg);
+    transform: rotate(-10deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(10deg);
   }
 }
