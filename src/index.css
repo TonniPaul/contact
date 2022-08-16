@@ -3,10 +3,11 @@
   --shadow: 0px 2px 2px #EFE3FD;
   --lightshadow: 0px 2px 2px #36E7F7;
   --txtshadow: -2px 2px 4px rgb(184, 170, 170);
-  --primary: #373737;
-  --primarylight: #0B246E;
+  --primary: #1D201D;
+  --lightcontactbox: #4F778859;
+  --primarylight: #1D3324;
   --lighttext: #36E7F7;
-  --primarytxt: #EFE3FD;
+  --primarytxt: #878981;
   --primaryblack: #141010;
   --white: #fff;
   --black: #4661AD;
@@ -24,19 +25,13 @@ body{
   font-weight: 400;
 }
 #dark {
-  background-color: var(--primary);
-  background-image: url(../public/images/bgdark.gif);
-  background-repeat: repeat;
-  background-size: 33.3333%;
-  background-position: center;
+  background-color: var(--primarytxt);
+
 }
 #light{
-  background-color: aliceblue;
+  background-color: #fff;
   color: var(--lighttext);
-  background-image: url(../public/images/lightbggg.gif);
-  background-repeat: repeat;
-  background-size: 33.3333%;
-  background-position: center;
+
 }
 
 .App{
@@ -89,7 +84,8 @@ body{
 }
 .hero-body{
   background-position: 100vw;
-  background-image: url(../public/images/black.gif);
+  background-image: url(../public/images/introimg.jpg);
+  fill-opacity: 50px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -104,7 +100,6 @@ body{
 }
 #light .hero-body{
   background-color: #fff;
-  background-image: url(../public/images/nnnnn.gif);
 }
 .hero-body > main{
   height: inherit;
@@ -121,12 +116,11 @@ body{
   margin: 0;
   padding: 1rem;
   left: 60px;
-  background-color: var(--primarytxt);
+  background-color: var(--lightcontactbox);
   color: var(--primary);
-  opacity: .879;
 }
 #light .hero--text{
-  color: var(--black);
+  color: var(--primarylight);
   
 }
 .readmore{
@@ -183,11 +177,12 @@ a{
   box-shadow: var(--lightshadow);
 }
 
+
 .about--img{
-  width: 40%;
+  width: 180px;
   margin:3rem auto;
-  border-radius:20% ;
-  animation: about--img infinite 3s ease-in-out;
+  border-radius:50% ;
+  animation: about--img infinite 20s ease-in-out;
 }
 
 .abt--links{
@@ -312,6 +307,6 @@ small{
     transform: rotate(-10deg);
   }
   to {
-    transform: rotate(10deg);
+    transform: rotate(20deg);
   }
 }

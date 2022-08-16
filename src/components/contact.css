@@ -21,7 +21,7 @@ input, select, textarea{
    background-color: var(--primaryblack);
 }
 #light input,#light  select,#light  textarea{
-   background-color: var(--black);
+   background-color: var(--lightcontactbox);
 }
 option{
    font-size: 13px;
@@ -55,7 +55,7 @@ input[type=text],input[type=email], select, textarea{
    border: 1px solid var(--primarytxt);
  }
  #light .form-submit{
-   background-color: var(--black);
+   background-color: var(--lightcontactbox);
    color: var(--lighttext);
  }
  .form-submit:hover{

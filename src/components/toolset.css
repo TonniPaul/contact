@@ -23,13 +23,18 @@ hr{
 }
 .toolset > div{
    display: grid;
-   gap: 40px;
+   gap: 20px;
    grid-template-columns: repeat(3,1fr);
+   justify-content: center;
+   align-items: center;
    width: max-content;
    margin: auto;
    padding: 2rem;
 }
-.toolset > div > i{
+.skill--text{
+   font-size: 15px;
+}
+.skilldescription > i{
    font-size: 70px;
 }
 
