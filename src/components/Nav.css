@@ -40,8 +40,8 @@ a{
    position: absolute;
    z-index: 99999;
    top: 10px;
-   right: 30px;
-   padding: .5rem 1rem;
+   right: 10px;
+   padding: .3rem .5rem;
    color: var(--primary);
    font-weight: 700;
    border: 2px solid var(--primaryblack);
