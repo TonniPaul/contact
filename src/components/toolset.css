@@ -9,7 +9,7 @@
 }
 #light .toolset{
    background: var(--primarylight);
-   box-shadow: var(--shadow);
+   box-shadow: var(--lightshadow);
 }
 hr{
    border: 2px solid var(--primarytxt);

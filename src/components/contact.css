@@ -13,7 +13,7 @@ label{
 }
 #light .imputs {
    background-color: var(--primarylight);
-   box-shadow: var(--ligthboxshadow);
+   box-shadow: var(--lightshadow);
 }
 input, select, textarea{
    width: 100%;
@@ -56,7 +56,7 @@ input[type=text],input[type=email], select, textarea{
  }
  #light .form-submit{
    background-color: var(--black);
-   color: var(--primarytxt);
+   color: var(--lighttext);
  }
  .form-submit:hover{
    background-color: var(--primaryblack);
@@ -87,6 +87,7 @@ input[type=text],input[type=email], select, textarea{
    }
    #light .social{
       background: var(--primarylight);
+      box-shadow: var(--lightshadow);
    }
 }
 @media(max-width:500px){

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 :root{
   --shadow: 0px 2px 2px #EFE3FD;
+  --lightshadow: 0px 2px 2px #36E7F7;
   --txtshadow: -2px 2px 4px rgb(184, 170, 170);
   --primary: #373737;
   --primarylight: #0B246E;
@@ -157,7 +158,6 @@ body{
 .toolabout{
   display: grid;
   max-width: 1440px;
-
   grid-template-columns: repeat(2, 1fr);
   align-items: flex-start;
   margin: auto;
@@ -177,10 +177,10 @@ a{
   border-radius: 6px;
   gap: 8px;
   text-decoration: none;
-  box-shadow: 0px 1px 2px var(--primary);
+  box-shadow: var(--shadow);
 }
 #light .aaa{
-  box-shadow: 0px 1px 2px var(--primarylight);
+  box-shadow: var(--lightshadow);
 }
 
 .about--img{
