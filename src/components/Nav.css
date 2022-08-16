@@ -53,7 +53,7 @@ a{
    background-color: var(--primarylight);
    color: var(--lighttext);
    border: 2px solid var(--lighttext);
-   box-shadow: 0px 2px 2px #0B246E;
+   box-shadow: 0px 2px 2px var(--primarylight);
 }
 /* ====== logo design ====== */
 .tt{
