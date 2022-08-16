@@ -88,7 +88,7 @@ body{
 }
 .hero-body{
   background-position: 100vw;
-  
+  background-image: url(../public/images/black.gif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -100,9 +100,6 @@ body{
   align-items: flex-end;
   position: relative;
   top: -40px;
-}
-#dark .hero-body{
-  background-image: url(../public/images/black.gif);
 }
 #light .hero-body{
   background-color: #fff;
