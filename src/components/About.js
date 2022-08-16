@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import paul from "../images/paultol.png";
 import Footer from "./Footer";
 import Nav from "./Nav";
@@ -13,7 +14,9 @@ export  function About (){
             websites and user interfaces using html, css, javascript and React. 
             I try to keep up with web security and best practices, and I am always 
             looking to learn new things. I am presently a taking a software 
-            Engineering course at ALX
+            Engineering course at ALX <span><em>
+               <Link to='/About' className="readmore"> ....Read More</Link></em>
+            </span>
          </p>
       </main>
    )

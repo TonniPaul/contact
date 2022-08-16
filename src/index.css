@@ -88,7 +88,7 @@ body{
 }
 .hero-body{
   background-position: 100vw;
-  background-image: url(../public/images/black.gif);
+  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -101,7 +101,11 @@ body{
   position: relative;
   top: -40px;
 }
+#dark .hero-body{
+  background-image: url(../public/images/black.gif);
+}
 #light .hero-body{
+  background-color: #fff;
   background-image: url(../public/images/nnnnn.gif);
 }
 .hero-body > main{
@@ -126,6 +130,10 @@ body{
 #light .hero--text{
   color: var(--black);
   
+}
+.readmore{
+  font-size: 14px;
+
 }
 #light .abt{
   background: var(--primarylight);
@@ -255,9 +263,9 @@ small{
 
 .hero--text{
   width: 70%;
-  bottom: 152px;
+  bottom: 132px;
   line-height: 30px;
-  font-size: 25px;
+  font-size: 27px;
   z-index: 888999;
   left: 20px;
 }
@@ -272,6 +280,9 @@ small{
   .hero{
     height: 100vh;
     position: relative;
+  }
+  .hero--text{
+    bottom: 150px;
   }
   .thank-you-home{
     width: 100%;
