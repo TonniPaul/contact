@@ -195,7 +195,9 @@ a{
 
 .abt--links{
   background-color: var(--primaryblack);
-  padding: 0 1rem;
+  font-size: 14px;
+  padding: .3rem 1rem;
+  border-radius: 2rem;
 }
 
 

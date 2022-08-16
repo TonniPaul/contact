@@ -3,7 +3,7 @@
    background-image: url(../images/HaD1.gif);
    background-size: cover;
    height: 71.8vh;
-   margin: 18px auto;
+   margin: 10px auto;
    display: flex;
    width:max-content;
    color:#fff;
@@ -14,4 +14,10 @@
 #light .project{
    background: var(--primarylight);
    background-image: url(../images/HaD1.gif);
+}
+@media (max-width:600px){
+   .project{
+      width: 80%;
+      margin-bottom: 30px;
+   }
 }
