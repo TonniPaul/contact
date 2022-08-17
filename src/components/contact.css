@@ -75,6 +75,9 @@ input[type=text],input[type=email], select, textarea{
    .contact--form{
       width: 80%;
    }
+   .cnttt{
+      margin-bottom: 3rem;
+   }
    .social{
       display: flex;
       opacity: 1;

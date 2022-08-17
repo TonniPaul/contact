@@ -141,13 +141,10 @@ body{
 }
 .abt--bold{
   font-weight: 900;
-  text-shadow: var(--txtshadow);
   padding: .5rem;
-  color: #cccf;
+
 }
-#light .abt--bold{
-  color: var(--black);
-}
+
 .tpl{
   display: block;
   padding: 0;
@@ -157,7 +154,7 @@ body{
   max-width: 1440px;
   grid-template-columns: repeat(2, 1fr);
   align-items: flex-start;
-  margin: auto;
+  margin:0 auto;
   padding: 2rem 0;
   gap: 3rem;
 }
@@ -190,12 +187,15 @@ a{
 
 .abt--links{
   background-color: var(--primaryblack);
+  color: var(--primarytxt);
   font-size: 14px;
   padding: .3rem 1rem;
   border-radius: 2rem;
 }
 
-
+#light .abt--links{
+  color: var(--lighttext);
+}
 .footer{
   display: flex;
   flex-direction: column;
@@ -246,7 +246,8 @@ small{
 
  .toolabout{
   grid-template-columns: auto;
-  gap: 50px;
+  gap: 0;
+  padding-bottom: .7rem;
 }
 .int{
   height: 0;
@@ -292,16 +293,14 @@ small{
     height: max-content;
     padding: 0;
   }
-
   .tpl{
     font-size: 13px;
   }
-
-
  .myabout{
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
  }
+ 
 }
 
 
