@@ -1,10 +1,13 @@
 import invalidimg from './images/danger.svg';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+
 export default function Invalidpage(){
+   const [theme] = useState(localStorage.getItem('themeColor')? localStorage.getItem('themeColor').toString(): 'dark');
    return (
-      <>
+      <div id={theme}>
          <Nav/>
       
          <div className="invalid myabout">
@@ -17,6 +20,6 @@ export default function Invalidpage(){
          <Link to='/'><button className='form-submit'>Click to home</button> </Link>
          </div>
          <Footer/>
-      </>
+      </div>
    );
 }

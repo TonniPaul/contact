@@ -12,6 +12,7 @@ import Thankyou from './Thankyou';
 import { useForm, ValidationError } from '@formspree/react';
 import Nav from './Nav';
 import Footer from './Footer';
+import { useState } from 'react';
 
 
 
@@ -128,14 +129,21 @@ export function Contact(){
    );
 }
 export function MyContact(){
+   const [theme] = useState(localStorage.getItem('themeColor')? localStorage.getItem('themeColor').toString(): 'dark');
+
    const [state, handleSubmit] = useForm("xvoypbrq");
    if (state.succeeded) {
        return (
-        <Thankyou/>
+         <div id={theme}>
+            <Nav/>
+            <Thankyou/>
+            <Footer/>
+         </div>
        );
    }
+   
    return(
-      <>
+      <div id={theme}>
          <Nav/>
       
       <main className="contact--form" id='contact'>
@@ -221,6 +229,6 @@ export function MyContact(){
          <div className='int'></div>
       </main>
       <Footer/>
-      </>
+      </div>
    );
 }

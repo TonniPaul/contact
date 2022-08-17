@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
+
 function Thankyou(){
+   const [theme] = useState(localStorage.getItem('themeColor')? localStorage.getItem('themeColor').toString(): 'dark');
    return(
-      <div className="invalid myabout">
+      <div id={theme} className="invalid myabout" >
             <h1> Thankyou for your message!!</h1>
             <p> TonniPaul typically responds within 24 hours and 
             would get back to you via the email provided. 

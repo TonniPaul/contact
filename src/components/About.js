@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import paul from "../images/paultol.png";
 import Footer from "./Footer";
 import Nav from "./Nav";
+import { useState } from "react";
 
 export  function About (){
    return (
@@ -22,8 +23,10 @@ export  function About (){
    )
 }
 export function MyAbout(){
+   const [theme] = useState(localStorage.getItem('themeColor')? localStorage.getItem('themeColor').toString(): 'dark');
+
    return(
-      <>
+      <div id={theme}>
          <Nav/>
       
       <main id="about" className="abt toolset myabout">
@@ -53,6 +56,6 @@ export function MyAbout(){
       </p>
    </main>
    <Footer/>
-   </>
+   </div>
    )
 }

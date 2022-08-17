@@ -78,6 +78,9 @@ body{
   background: var(--primary);
   box-shadow: var(--shadow);
 }
+#light .invalid{
+  background-color: var(--primarylight);
+}
 .invalid--img{
   width: 50%;
   margin: auto;
