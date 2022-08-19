@@ -1,5 +1,5 @@
 import './Nav.css';
-import { Link } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 // import { navData } from './objects';
 
 
@@ -22,42 +22,38 @@ function Nav (){
                <h2 className="logo"><span className='tt'> t</span><span>onni</span>Paul</h2>
             </div>
             <ul>
-               <Link to='/home'>
+               <NavLink to='/'>
                   <li>
                         <div className='icons'>
-                        <i class="fa-solid fa-house"></i>
+                        <i className="fa-solid fa-house"></i>
                            <p>Home</p>
                         </div>
                   </li>
-               </Link>
-               <Link to='/About'>
+               </NavLink>
+               <NavLink to='/about'>
                   <li>
                         <div className='icons'>
-                           <i class="fa-solid fa-user"></i>
+                           <i className="fa-solid fa-user"></i>
                            <p>About</p>
                         </div>
                   </li>
-               </Link>
-               <Link to='/Projects'>
+               </NavLink>
+               <NavLink to='/projects'>
                   <li>
-                     <a href="#skills">
                         <div className='icons'>
-                           <i class="fa-solid fa-laptop"></i>
+                           <i className="fa-solid fa-laptop"></i>
                            <p>Projects</p>
                         </div>
-                     </a>
                   </li>
-               </Link>
-               <Link to='/Contact'>
+               </NavLink>
+               <NavLink to='/contact'>
                   <li>
-                     <a href="#contact">
                         <div className='icons'>
-                           <i class="fa-solid fa-envelope"></i>
+                           <i className="fa-solid fa-envelope"></i>
                            <p>Contact</p>
                         </div>
-                     </a>
                   </li>
-               </Link>
+               </NavLink>
             </ul>
           
             </div>

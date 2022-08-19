@@ -64,14 +64,15 @@ a{
    justify-content: center;
    align-items: center;
    padding: .2rem .2rem .5rem;
-   border: 2px solid var(--primary);
 }
 #light .icons{
-   border: 2px solid var(--primarylight);
    color: var(--lighttext);
 }
-.icons:active, .icons:focus{
+a.active{
    border-bottom: 2px solid var(--primarytxt);
+}
+#light a.active{
+   border-bottom: 2px solid var(--lighttext);
 }
 .whatsapp{
    position: fixed;
@@ -94,15 +95,12 @@ a{
       flex-direction: column;
       margin: auto;
       padding: 10px;
+   }
+   a.active{
+
       border-radius: 30px;
    }
-   .icons:active, .icons:focus{
-      background: var(--primaryblack);
-      border-bottom: none;
-   }
-   #light .icons:active, .icons:focus{
-      background: var(--primarylight);
-   }
+
    .icons > p{
       font-size: 11px;
    }  

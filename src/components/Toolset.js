@@ -4,7 +4,7 @@ function Toolset(){
    return(
       <>
       <main className="toolset">
-         <h3>Toolset</h3>
+         <h3>Skill Set</h3>
          <hr/>
          <div>
             <div className='skilldescription'>

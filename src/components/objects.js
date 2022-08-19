@@ -9,7 +9,7 @@ export const navData = [
       id: 2,
       link: "/About",
       iconclass: "fa-solid fa-user",
-      icondescription: "ABOUT"
+      icondescription: "About"
    },
    {
       id: 3,
@@ -21,6 +21,6 @@ export const navData = [
       id: 4,
       link: "/Contact",
       iconclass: "fa-solid fa-envelope",
-      icondescription: "Connect"
+      icondescription: "Contact"
    },
 ]

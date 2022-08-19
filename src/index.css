@@ -67,7 +67,7 @@ body{
 /* ======== INVALID PAGE DESIGN====== */
 .invalid{
   width: 80%;
-  height: 71.8vh;
+  height: 68vh;
   margin: 18px auto;
   display: grid;
   justify-content: center;
@@ -82,7 +82,7 @@ body{
   background-color: var(--primarylight);
 }
 .invalid--img{
-  width: 50%;
+  width: 30%;
   margin: auto;
 }
 .hero-body{
