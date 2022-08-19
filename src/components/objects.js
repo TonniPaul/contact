@@ -1,25 +1,25 @@
-export const Navitems = [
+export const navData = [
    {
       id: 1,
-      link: "home",
+      link: "/home",
       iconclass: "fa-solid fa-house",
       icondescription: "Home"
    },
    {
       id: 2,
-      link: "About",
+      link: "/About",
       iconclass: "fa-solid fa-user",
       icondescription: "ABOUT"
    },
    {
       id: 3,
-      link: "Projects",
+      link: "/Projects",
       iconclass: "fa-solid fa-laptop",
       icondescription: "Projects"
    },
    {
       id: 4,
-      link: "Contact",
+      link: "/Contact",
       iconclass: "fa-solid fa-envelope",
       icondescription: "Connect"
    },

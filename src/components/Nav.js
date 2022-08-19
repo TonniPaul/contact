@@ -1,9 +1,17 @@
 import './Nav.css';
 import { Link } from "react-router-dom";
-
+// import { navData } from './objects';
 
 
 function Nav (){
+   // const navContent = navData.map(items =>{
+   //    return(
+   //       <Navitems
+   //          key ={items.id}
+   //          {...items}
+   //       />
+   //    )
+   // })
 
    return(
       <>
