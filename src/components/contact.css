@@ -13,30 +13,40 @@ label{
 }
 #light .imputs {
    background-color: var(--primarylight);
+   color: var(--lighttext);
    box-shadow: var(--lightshadow);
 }
 input, select, textarea{
    width: 100%;
    color: var(--primarytxt);
    background-color: var(--primaryblack);
+   border: 1px solid var(--primarytxt);
+   padding: 1rem 2rem;
+   margin: 8px 0;
+   border-radius: 4px;
 }
-#light input,#light  select,#light  textarea{
+input:focus, select:focus, textarea:focus{
+      outline: none;
+}
+#light input,#light select,#light  textarea{
    background-color: var(--lightcontactbox);
+   border: 1px solid var(--lighttext);
+   color: var(--lighttext);
+}
+#light input:focus,#light select:focus,#light  textarea:focus{
+   outline: none;
 }
 option{
-   font-size: 13px;
+   font-size: 15px;
    padding: 2rem;
+   font-weight: 700;
+}
+#light option{
+   background-color: var(--primarylight);
 }
 input[type=text]{
    text-transform: capitalize;
 }
-input[type=text],input[type=email], select, textarea{
-   padding: 1rem 2rem;
-   margin: 8px 0;
-   border: 1px solid var(--primarytxt);
-   border-radius: 4px;
-   box-sizing: border-box;
- }
  textarea{
    height: 80px;
    font-size: 17px;
@@ -56,6 +66,7 @@ input[type=text],input[type=email], select, textarea{
  }
  #light .form-submit{
    background-color: var(--lightcontactbox);
+   border: 1px solid var(--lighttext);
    color: var(--lighttext);
  }
  .form-submit:hover{
@@ -71,6 +82,8 @@ input[type=text],input[type=email], select, textarea{
  .social{
    display: none;
  }
+
+ /* ====== MEDIA QUERIES ====== */
 @media(max-width:900px){
    .contact--form{
       width: 80%;

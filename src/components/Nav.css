@@ -68,11 +68,13 @@ a{
 #light .icons{
    color: var(--lighttext);
 }
-a.active{
-   border-bottom: 2px solid var(--primarytxt);
+ul a.active{
+   border-bottom: 1px dashed var(--primarytxt);
+   border-width: 5px;
 }
-#light a.active{
-   border-bottom: 2px solid var(--lighttext);
+#light ul a.active{
+   border-bottom: 1px dashed var(--lighttext);
+   border-width: 2px;
 }
 .whatsapp{
    position: fixed;

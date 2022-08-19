@@ -80,8 +80,8 @@ export function Contact(){
                <br />
                <select name="services" id="services" required>
                   <option value="none" selected disabled hidden>Select an Option</option>
-                  <option value="web Design">WEB SiTE Design</option>
-                  <option value="web management">WEBSITE Management</option>
+                  <option value="web Design">I want to Create a Website</option>
+                  <option value="web management"> I want you to Manage Existing Website</option>
                </select>
             </p>
             <p>
@@ -145,7 +145,7 @@ export function MyContact(){
    return(
       <div id={theme}>
          <Nav/>
-      
+
       <main className="contact--form" id='contact'>
          <form name="contact" className="imputs" onSubmit={handleSubmit}>
             <p>
@@ -182,8 +182,8 @@ export function MyContact(){
                <br />
                <select name="services" id="services" required>
                   <option value="none" selected disabled hidden>Select an Option</option>
-                  <option value="web Design">WEB SiTE Design</option>
-                  <option value="web management">WEBSITE Management</option>
+                  <option value="web Design">I want to Create a Website</option>
+                  <option value="web management"> I want you to Manage Existing Website</option>
                </select>
             </p>
             <p>
