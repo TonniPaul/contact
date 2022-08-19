@@ -1,17 +1,16 @@
-import invalidimg from './images/danger.svg';
+import invalidimg from '../images/danger.svg';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import Nav from './components/Nav';
-import Footer from './components/Footer';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 
 export default function Invalidpage(){
    const [theme] = useState(localStorage.getItem('themeColor')? localStorage.getItem('themeColor').toString(): 'dark');
    return (
       <div id={theme}>
          <Nav/>
-      
          <div className="invalid myabout">
-            <h4>Error 404</h4>
+            <h1>Error 404</h1>
             <img src={ invalidimg } alt='invalid img' className='invalid--img'/>
             <h3> this page doesn't exist!<br/> or might have been deleted
             <br/>

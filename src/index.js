@@ -8,7 +8,7 @@ import App from './App';
 import {MyContact} from './components/Contact';
 import { MyAbout } from './components/About';
 import Projects from './components/Projects';
-import Invalidpage from './Invalidpage';
+import Invalidpage from './components/Invalidpage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
