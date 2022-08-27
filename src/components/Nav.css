@@ -70,9 +70,11 @@ a{
 }
 ul a.active{
    border-bottom: 1px solid var(--primarytxt);
+   border-width: 1px;
 }
 #light ul a.active{
    border-bottom: 1px solid var(--lighttext);
+   border-width: 1px;
 }
 .whatsapp{
    position: fixed;
@@ -98,8 +100,11 @@ ul a.active{
    }
    a.active{
       border-radius: 30px;
+      border: 1px solid var(--primarytxt);
    }
-
+   #light a.active{
+      border: 1px solid var(--lighttext);
+   }
    .icons > p{
       font-size: 11px;
    }  
