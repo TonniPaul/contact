@@ -106,7 +106,7 @@ export function Contact(){
             <a href="mailto:ariyoadeoyepaul@gmail.com" target='blank' className='aaa'>
                <img src={email} alt="mail"/>
             </a>
-            <a href="https://github.com/tonnipaul"target="blank" className='aaa'>
+            <a href="https://www.linkedin.com/in/tonnipaul/"target="blank" className='aaa'>
                <img src={linkedin} alt="linkedin"/>
             </a>
             <a href="https://twitter.com/tonnipaul" target="blank" className='aaa'>
@@ -208,7 +208,7 @@ export function MyContact(){
             <a href="mailto:ariyoadeoyepaul@gmail.com" target='blank' className='aaa'>
                <img src={email} alt="mail"/>
             </a>
-            <a href="https://github.com/tonnipaul"target="blank" className='aaa'>
+            <a href="https://www.linkedin.com/in/tonnipaul/"target="blank" className='aaa'>
                <img src={linkedin} alt="linkedin"/>
             </a>
             <a href="https://twitter.com/tonnipaul" target="blank" className='aaa'>

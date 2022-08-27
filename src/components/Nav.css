@@ -69,12 +69,10 @@ a{
    color: var(--lighttext);
 }
 ul a.active{
-   border-bottom: 1px dashed var(--primarytxt);
-   border-width: 5px;
+   border-bottom: 1px solid var(--primarytxt);
 }
 #light ul a.active{
-   border-bottom: 1px dashed var(--lighttext);
-   border-width: 2px;
+   border-bottom: 1px solid var(--lighttext);
 }
 .whatsapp{
    position: fixed;
@@ -99,7 +97,6 @@ ul a.active{
       padding: 10px;
    }
    a.active{
-
       border-radius: 30px;
    }
 
