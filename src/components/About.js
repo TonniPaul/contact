@@ -1,8 +1,5 @@
 import { Link } from "react-router-dom";
 import paul from "../images/paultol.png";
-import Footer from "./Footer";
-import Nav from "./Nav";
-import { useState } from "react";
 
 export  function About (){
    return (
@@ -23,12 +20,10 @@ export  function About (){
    )
 }
 export function MyAbout(){
-   const [theme] = useState(localStorage.getItem('themeColor')? localStorage.getItem('themeColor').toString(): 'dark');
+   
 
    return(
-      <div id={theme}>
-         <Nav/>
-      
+      <div>      
       <main id="about" className="abt toolset myabout">
       <h3>About</h3>
       <hr />
@@ -55,7 +50,6 @@ export function MyAbout(){
       I try to keep up with web security and best practices.
       </p>
    </main>
-   <Footer/>
    </div>
    )
 }
