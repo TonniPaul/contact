@@ -1,0 +1,6 @@
+.project--header{
+   text-align: center;
+}
+#dark .project--header{
+   color: var(--primary);
+}
