@@ -26,7 +26,6 @@ body{
 }
 #dark {
   background-color: var(--primarytxt);
-
 }
 #light{
   background-color: #fff;
@@ -43,7 +42,7 @@ body{
   margin: auto;
 }
 .myabout{
-  margin: 100px auto;
+  margin: -10px auto 10px !important;
 }
 .switch{
   position: absolute;
@@ -150,15 +149,24 @@ body{
   padding: 0;
 }
 .toolabout{
+  position: relative;
   display: grid;
   max-width: 1440px;
   grid-template-columns: repeat(2, 1fr);
   align-items: flex-start;
-  margin:0 auto;
   padding: 2rem 0;
-  gap: 3rem;
 }
-
+.viewmore{
+  background: var(--primary);
+  position: absolute;
+  width: max-content;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#light .viewmore{
+  background: var(--primarylight);
+}
 a{
   text-decoration: none;
 }
@@ -247,7 +255,6 @@ small{
  .toolabout{
   grid-template-columns: auto;
   gap: 0;
-  padding-bottom: .7rem;
 }
 .int{
   height: 0;
@@ -272,6 +279,9 @@ small{
 }
 .int{
   height: 40px;
+ }
+ .bottomPad{
+  padding-bottom: 6rem !important;
  }
 }
 @media (max-width:500px){

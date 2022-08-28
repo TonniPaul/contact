@@ -23,8 +23,8 @@ export function MyAbout(){
    
 
    return(
-      <div>      
-      <main id="about" className="abt toolset myabout">
+      <div className="bottomPad">      
+      <main id="about" className=" toolset myabout">
       <h3>About</h3>
       <hr />
       <img src={paul} alt="paul" className="about--img"/>

@@ -1,6 +1,6 @@
 .toolset{
    background: var(--primary);
-   width: 80%;
+   width: 90%;
    margin:30px auto;
    height: max-content;
    text-align: center;
@@ -27,7 +27,6 @@ hr{
    grid-template-columns: repeat(3,1fr);
    justify-content: center;
    align-items: center;
-   width: max-content;
    margin: auto;
    padding: 2rem;
 }
@@ -39,12 +38,6 @@ hr{
 }
 
 @media(max-width:900px){
-   .toolset{
-      margin-bottom: 100px;
-   }
-   .toolset > div{
-      grid-template-columns: repeat(2, auto);
-   }
    .toolset > div > i{
       font-size: 50px;
    }

@@ -118,7 +118,6 @@ export function Contact(){
 
          </div>
 
-         <div className='int'></div>
       </main>
    );
 }
@@ -135,7 +134,7 @@ export function MyContact(){
    
    return(
       <div>
-         <main className="contact--form" id='contact'>
+         <main className="contact--form btm" id='contact'>
             <form name="contact" className="imputs" onSubmit={handleSubmit}>
                <p>
                   <label>First Name 
