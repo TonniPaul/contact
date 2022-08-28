@@ -20,8 +20,8 @@ export default function HomePage() {
     <div>
            <div className="App">
           <Hero/>
-          <div className="toolabout gap">
             <h1 className="project--header">Projects</h1>
+          <div className="toolabout gap">
             {projectsInputs}
             <Link to='/projects'><p className="project--link viewmore">VIEW MORE</p></Link>
           </div>
