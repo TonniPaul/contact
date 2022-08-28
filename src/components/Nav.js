@@ -58,9 +58,9 @@ function Nav (){
           
             </div>
          </nav>
-            <a href='http://wa.me/2348162325194/' className='whatsapp' target='blank'>
+            {/* <a href='http://wa.me/2348162325194/' className='whatsapp' target='blank'>
                   <i class="fa-brands fa-whatsapp"></i>
-            </a>
+            </a> */}
          </>
    )
 }
