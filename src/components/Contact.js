@@ -10,15 +10,9 @@ import Thankyou from './Thankyou';
 
 // ======form database import======
 import { useForm, ValidationError } from '@formspree/react';
-import Nav from './Nav';
-import Footer from './Footer';
-import { useState } from 'react';
-
-
-
-// ======Function for Validating Input======
 
 export function Contact(){
+   // ======Function for Validating Input======
    const [state, handleSubmit] = useForm("xvoypbrq");
    if (state.succeeded) {
        return (
@@ -129,15 +123,12 @@ export function Contact(){
    );
 }
 export function MyContact(){
-   const [theme] = useState(localStorage.getItem('themeColor')? localStorage.getItem('themeColor').toString(): 'dark');
 
    const [state, handleSubmit] = useForm("xvoypbrq");
    if (state.succeeded) {
        return (
-         <div id={theme}>
-            <Nav/>
+         <div>
             <Thankyou/>
-            <Footer/>
          </div>
        );
    }
