@@ -87,7 +87,7 @@ input[type=text]{
  /* ====== MEDIA QUERIES ====== */
 @media(max-width:900px){
    .contact--form{
-      width: 90%;
+      width: 90% !important;
       margin-bottom: 0;
       padding-bottom: 5rem;
    }
@@ -113,10 +113,9 @@ input[type=text]{
    .contact--form{
       width: 100%;
       margin: auto;
-      padding: 2rem;
    }
    form{
-      width: 90%;
+      width: 100%;
       margin: auto;
    }
 }

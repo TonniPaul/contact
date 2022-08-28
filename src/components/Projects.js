@@ -10,6 +10,7 @@ export default function Projects(props) {
          <div className='project--content'>
             <img src={props.image} alt='' className='project--img'/>
             <p>{props.description}</p>
+            <p> Stacks Used: {props.stacks} </p>
             <div className='project--links-div'>
                <a href={props.liveSite} className='project--link'> LIVE PAGE</a>
                <a href={props.github} className='project--link'> GITHUB </a>
