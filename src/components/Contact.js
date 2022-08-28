@@ -6,7 +6,7 @@ import instagram from "../images/instagram.svg";
 import github from "../images/githubicon.svg";
 import email from "../images/email.svg";
 import linkedin from "../images/linkedin.svg";
-import Thankyou from './Thankyou';
+import Thankyou from '../pages/Thankyou';
 
 // ======form database import======
 import { useForm, ValidationError } from '@formspree/react';

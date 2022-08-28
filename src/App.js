@@ -1,12 +1,14 @@
-import Hero from "./components/Hero";
-import { About } from "./components/About";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import Toolset from "./components/Toolset";
-import {Contact} from "./components/Contact";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
+import Invalidpage from "./pages/Invalidpage";
+import ProjectPage from "./pages/Projectpage";
 import { ThemeContext } from "styled-components";
 import ReactSwitch from 'react-switch';
 import {  useState, useEffect } from "react";
+import {Routes,Route,} from "react-router-dom";
 
 
 
@@ -35,16 +37,14 @@ function App() {
       <div className="hero" id={theme}>
         <Nav />
         <ReactSwitch onChange={toggleTheme} checked={theme==='light'} className='switch'/>
-        <div className="App">
-          <Hero/>
-          <div className="toolabout">
-            <About />
-            <Toolset/>
-          </div>
-          <div className="ccontact">
-            <Contact />
-          </div>
-        </div>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path='/home' element={<App/>}/>
+          <Route path="About" element={<AboutPage />}/>
+          <Route path="Contact" element={ <ContactPage />}/>
+          <Route path='Projects' element= {<ProjectPage/>}/>
+          <Route path="*" element={<Invalidpage />}/>
+        </Routes>
         <Footer/>
       </div>
     </ThemeContext.Provider>

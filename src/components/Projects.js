@@ -6,10 +6,8 @@ export default function Projects() {
    return(
 
       <div>
-         <main className="project" 
-         // style={{ }}
-         >
-            <h1>Under Construction</h1>
+         <main className="project">
+            
          </main>
       </div>
    )
