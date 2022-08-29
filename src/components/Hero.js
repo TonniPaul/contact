@@ -1,5 +1,6 @@
 import pdf from '../cv/paulcv.pdf';
-function Hero(){
+function Hero()
+{
    return (
       <div className='herooo'>
          <div className="hero-body">

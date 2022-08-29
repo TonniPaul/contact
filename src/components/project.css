@@ -1,13 +1,13 @@
 .project{
    width: 90%;
-   gap: 30px;
    margin:1rem auto;
+   height: inherit;
 }
 .project--img{
    width: 100%;
 }
 .project--img:hover{
-   filter: invert(500%) opacity(70%);
+   filter: sepia(50%) ;
 }
 .project--content{
    background: var(--primary);
