@@ -7,14 +7,14 @@ nav{
    justify-content: space-between;
    align-items: center;
    margin: auto;
-   padding: 1rem 2rem;
+   padding: 1rem 2rem 0;
    max-width: 1440px;
 }
 
 .logo{
    font-family: 'Square Peg';
    font-size: 50px;
-   margin: 0;
+   padding-bottom: 1rem;
 }
 #light nav{
    background: var(--primarylight);
@@ -69,12 +69,12 @@ a{
    color: var(--lighttext);
 }
 ul a.active{
-   border-bottom: 1px solid var(--primarytxt);
-   border-width: 1px;
+   border-bottom: 3px solid var(--primarytxt);
+   margin: 0;
 }
 #light ul a.active{
-   border-bottom: 1px solid var(--lighttext);
-   border-width: 1px;
+   border-bottom: 3px solid var(--lighttext);
+   margin: 0;
 }
 .whatsapp{
    position: fixed;
