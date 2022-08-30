@@ -11,7 +11,7 @@
   display: grid;
   margin: 0;
   padding: 0;
-  align-items: flex-end;
+  align-items: center;
   position: relative;
   top: -40px;
 }
@@ -137,4 +137,9 @@
       z-index: 888999;
       left: 20px;
     }
+}
+@media(max-width: 900px){
+   .heromain{
+      padding: 2rem 0 12rem;
+   }
 }

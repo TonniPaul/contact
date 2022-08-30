@@ -81,10 +81,10 @@ ul a.active{
    }
    a.active{
       border-radius: 30px;
-      border: 1px solid var(--primarytxt);
+      border: 1px solid var(--primarytxt) !important;
    }
    #light a.active{
-      border: 1px solid var(--lighttext);
+      border: 1px solid var(--lighttext) !important;
    }
    .icons > p{
       font-size: 11px;
