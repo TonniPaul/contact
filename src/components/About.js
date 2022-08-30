@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
-import paul from "../images/paultol.png";
+import ImagePaul from "./ImagePaul";
 
 export  function About (){
    return (
       <main  className="toolset">
          <h3>About</h3>
          <hr />
-         <img src={paul} alt="paul" className="about--img"/>
+         <div className="about--img">
+            <ImagePaul/>
+         </div>
          <p className='abt--paragraph' >
             I am a frontend developer with particular interest in building amazing 
             websites and user interfaces using html, css, javascript and React. 
@@ -27,7 +29,9 @@ export function MyAbout(){
       <main id="about" className=" toolset myabout">
       <h3>About</h3>
       <hr />
-      <img src={paul} alt="paul" className="about--img"/>
+      <div className="about--img">
+      <ImagePaul/>
+      </div>
       <p className='abt--paragraph' >
          My names are Paul Oluwatoni Ariyo-Adeoye, I am a graduate of 
          Library and Information Science. I am a Web developer, Fashion Designer, 

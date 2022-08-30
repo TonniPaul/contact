@@ -1,16 +1,24 @@
 import pdf from '../cv/paulcv.pdf';
+import './hero.css'
+import ImagePaul from './ImagePaul';
+import { NavLink } from 'react-router-dom';
 function Hero()
 {
    return (
       <div className='herooo'>
          <div className="hero-body">
             <main className='heromain'>
-               <p className="hero--text">
-               👋 Hey! I'm Paul Oluwatoni, a Frontend developer. 
-               I create Awesome Web Applications.
-               </p>
+               <ImagePaul/>
+               <div className='hero--text'>
+                  <p className='name--text'>Paul Oluwatoni Ariyo-Adeoye</p>
+                  <small className='name--text--small'>Front-end Developer</small>
+               </div>
+               <div className='hero-button'>
+                  <p><NavLink to='/contact'className='action--btn'> Hire Me</NavLink></p>
+                  <p><a href={pdf} target='blank' className='action--btn'> Resume</a></p>
+               </div>
             </main>
-            <a href={pdf} target='blank' className='download'> Download CV</a>
+            
          </div>
       </div>
    );

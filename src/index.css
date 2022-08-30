@@ -51,6 +51,10 @@ body{
   margin: auto;
   z-index: 9999999999999;
 }
+.image--about{
+  display: flex;
+  justify-content: center;
+}
 .thank-you-home{
   padding: 1rem;
   text-align: center;
@@ -83,47 +87,6 @@ body{
 .invalid--img{
   width: 30%;
   margin: auto;
-}
-.hero-body{
-  background-position: 100vw;
-  background-image: url(../public/images/introimg.jpg);
-  fill-opacity: 50px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 92vh;
-  display: grid;
-  margin: 0;
-  padding: 0;
-  align-items: flex-end;
-  position: relative;
-  top: -40px;
-}
-#light .hero-body{
-  background-color: #fff;
-}
-.hero-body > main{
-  height: inherit;
-  margin: 0 auto;
-}
-.hero--text{
-  width: 50%;
-  letter-spacing: 2px;
-  position: absolute;
-  bottom: 85px;
-  font-size: 40px;
-  line-height: 60px;
-  font-weight: 900;
-  margin: 0;
-  padding: 1rem;
-  left: 60px;
-  background-color: var(--lightcontactbox);
-  color: var(--primary);
-}
-#light .hero--text{
-  color: var(--primarylight);
-  
 }
 .readmore{
   font-size: 14px;
@@ -190,7 +153,8 @@ a{
   width: 180px;
   margin:3rem auto;
   border-radius:50% ;
-  animation: about--img infinite 20s ease-in-out;
+  transform: translateX(0);
+  animation: about--img infinite 10s ease-in-out;
 }
 
 .abt--links{
@@ -259,21 +223,6 @@ small{
 .int{
   height: 0;
 }
-.hero-body{
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.hero--text{
-  width: 70%;
-  bottom: 132px;
-  line-height: 30px;
-  font-size: 27px;
-  z-index: 888999;
-  left: 20px;
-}
 .footer{
   display: none;
 }
@@ -285,10 +234,6 @@ small{
  }
 }
 @media (max-width:500px){
-  .hero{
-    height: 100vh;
-    position: relative;
-  }
   .hero--text{
     bottom: 150px;
   }
@@ -315,10 +260,13 @@ small{
 
 
 @keyframes about--img {
-  from {
-    transform: rotate(-10deg);
-  }
-  to {
-    transform: rotate(20deg);
-  }
+	0% {
+		transform: translatex(0px);
+	}
+	50% {
+		transform: translatex(-40px);
+	}
+	100% {
+		transform: translatex(0px);
+	}
 }
