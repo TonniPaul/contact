@@ -11,7 +11,7 @@ function Hero()
                <ImagePaul/>
                <div className='hero--text'>
                   <p className='name--text'>Paul Oluwatoni Ariyo-Adeoye</p>
-                  <small className='name--text--small'>Front-end Developer</small>
+                  <small className='name--text--small'>Frontend Developer</small>
                </div>
                <div className='hero-button'>
                   <p><NavLink to='/contact'className='action--btn'> Hire Me</NavLink></p>
