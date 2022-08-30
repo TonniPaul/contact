@@ -124,7 +124,7 @@
 }
 @media (max-width:900px){
    .hero-body{
-      height: 89vh;
+      height: 87vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
