@@ -18,7 +18,7 @@ function Nav (){
          <nav>
             <div className='navdiv'>
             <div className='logocv'>
-               <h2 className="logo"><span className='tt'> t</span><span>onni</span>Paulllllllll</h2>
+               <h2 className="logo"><span className='tt'> t</span><span>onni</span>Paul</h2>
             </div>
             <ul>
                <NavLink to='/'>
