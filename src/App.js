@@ -5,8 +5,8 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import ProjectPage from "./pages/Projectpage";
 import ReactSwitch from 'react-switch';
-import {  useState, useEffect } from "react";
-import {Routes,Route,Navigate} from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Routes,Route,Navigate } from "react-router-dom";
 import Invalidpage from './pages/Invalidpage'
 
 
@@ -35,6 +35,7 @@ function App() {
       <div className="hero" id={theme}>
         <Nav />
         <ReactSwitch onChange={toggleTheme} checked={theme==='light'} className='switch'/>
+
         <Routes>
           <Route path="/" element={ <HomePage />} />
           <Route path='/home' element={ <Navigate to='/'/> }/>
@@ -43,6 +44,7 @@ function App() {
           <Route path='Projects' element= { <ProjectPage />}/>
           <Route path="*" element={<Invalidpage />}/>
         </Routes>
+        
         <Footer/>
       </div>
   );
