@@ -7,6 +7,13 @@ export const projectData =[
       liveSite: 'https://tonnimeme.vercel.app',
       github: 'https://github.com/TonniPaul/meme'
    },
+   // {
+   //    id: 3,
+   //    image: './images/dicegame.png',
+   //    description:'Created a dice game that generates random dice numbers and declares the winner on click',
+   //    liveSite: 'https://tonnipaul.github.io/dice-game/',
+   //    github: 'https://github.com/TonniPaul/dice-game'
+   // },
    {
       id: 1,
       image: './images/fitnesssite.png',

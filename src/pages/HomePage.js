@@ -6,6 +6,7 @@ import { Contact } from "../components/Contact";
 import Projects from "../components/Projects";
 import { projectData } from "../components/projectObject";
 import { Link } from 'react-router-dom';
+import Card from '../UI/Card'
 
 export default function HomePage() {
   const projectsInputs = projectData.map(items =>{
@@ -17,22 +18,20 @@ export default function HomePage() {
     )
   })
   return (
-    <div>
-           <div className="App">
-          <Hero/>
-            <h1 className="project--header">Projects</h1>
-          <div className="toolabout gap">
-            {projectsInputs}
-            <Link to='/projects'><p className="project--link viewmore">VIEW MORE</p></Link>
-          </div>
-          <div className="toolabout">
-            <About />
-            <Toolset/>
-          </div>
-          <div className="ccontact">
-            <Contact />
-          </div>
-        </div>
+    <div className="App">
+      <Hero/>
+        <h1 className="project--header">Projects</h1>
+      <Card>
+        {projectsInputs}
+        <Link to='/projects'><p className="project--link viewmore">VIEW MORE</p></Link>
+      </Card>
+      <Card>
+        <About />
+        <Toolset/>
+      </Card>
+      <div className="ccontact">
+        <Contact />
+      </div>
     </div>
   )
 }

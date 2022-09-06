@@ -49,7 +49,7 @@ export function MyAbout(){
 
       </p>
       <p className='abt--paragraph' >
-      I am proficient in the use of <strong className="abt--bold"> HTML </strong> ,<strong className="abt--bold">CSS</strong>, and <strong className="abt--bold"> JAVASCRIPT,</strong>
+      I am proficient in the use of <strong className="abt--bold"> HTML</strong>,<strong className="abt--bold">CSS</strong>, and <strong className="abt--bold"> JAVASCRIPT,</strong>
       (presently mastering <strong className="abt--bold">REACTJS</strong>) to build amazing websites and user interfaces. 
       I try to keep up with web security and best practices.
       </p>

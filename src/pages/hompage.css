@@ -1,6 +1,8 @@
 .project--header{
    text-align: center;
    color: var(--primary);
+   font-size: 30px;
+   font-weight: 600;
 }
 #light .project--header{
    color: var(--primarylight);

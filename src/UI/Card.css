@@ -1,6 +1,15 @@
 .card{
    max-width: 1440px;
-   margin: auto;
+   position: relative;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   align-items: flex-start;
    padding: 2rem 0;
-   width: 100%;
+   margin: auto;
+}
+@media(max-width:900px){
+   .card{
+      grid-template-columns: auto;
+      gap: 0;
+   }
 }
