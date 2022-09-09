@@ -18,8 +18,8 @@ function Nav (){
          <nav>
             <div className='navdiv'>
             <div className='logocv'>
-               <NavLink to='/' className="logo"><span className='tt'> t</span><span>onni</span>Paul</NavLink>
-            </div>
+               <h2 className="logo"><span className='tt'> t</span><span>onni</span>Paul</h2>
+         </div>
             <ul>
                <NavLink to='/'>
                   <li>
