@@ -37,6 +37,12 @@ ul{
 .tt{
    font-family: 'Great Vibes', sans-serif;
 }
+a{
+   color: var(--primarytxt);
+}
+#light a {
+   color: var(--lighttext);
+}
 .icons{
    display: flex;
    gap: 7px;
