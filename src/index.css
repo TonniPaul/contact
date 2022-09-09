@@ -31,7 +31,6 @@ body{
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
   line-height: 30px;
-  font-weight: 400;
 }
 #dark {
   background-color: var(--darkbglighter);
