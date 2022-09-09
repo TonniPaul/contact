@@ -1,7 +1,11 @@
 .project{
    width: 90%;
    margin:1rem auto;
-   height: inherit;
+   box-shadow: var(--shadow);
+   border-radius: 15px;
+}
+#light .project {
+   box-shadow: var(--lightshadow);
 }
 .project--img{
    width: 100%;
@@ -11,6 +15,7 @@
 }
 .project--content{
    background: var(--primary);
+   border-radius: inherit;
    padding: 2rem;
    display: grid;
    justify-content: center;
