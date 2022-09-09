@@ -9,11 +9,12 @@
   --shadow: 0px 2px 2px #EFE3FD;
   --lightshadow: 0px 2px 2px #36E7F7;
   --txtshadow: -2px 2px 4px rgb(184, 170, 170);
-  --primary: #1D201D;
+  --primary: #202124;
   --lightcontactbox: #4F778859;
   --primarylight: #1D3324;
   --lighttext: #36E7F7;
-  --primarytxt: #878981;
+  --primarytxt: #E2E6E9;
+  --darkbglighter: #3C4042;
   --primaryblack: #141010;
   --white: #fff;
   --black: #4661AD;
@@ -30,7 +31,7 @@ body{
   font-weight: 400;
 }
 #dark {
-  background-color: var(--primarytxt);
+  background-color: var(--darkbglighter);
 }
 #light{
   background-color: #fff;
