@@ -2,7 +2,7 @@
    width: 90%;
    margin:1rem auto;
    box-shadow: var(--shadow);
-   border-radius: 15px;
+   border-radius: 9px;
 }
 #light .project {
    box-shadow: var(--lightshadow);

@@ -17,9 +17,10 @@
   --darkbglighter: #3C4042;
   --primaryblack: #141010;
   --white: #fff;
-  --black: #4661AD;
+  --black: #83899a;
   --ligthboxshadow: 0px 2px 2px #455A64;
 }
+
 *{
   margin: 0;
   box-sizing: border-box;
@@ -36,11 +37,35 @@ body{
   background-color: var(--darkbglighter);
 }
 #light{
-  background-color: #fff;
+  background-color: var(--white);
   color: var(--lighttext);
   transition: all 3s ease-in-out;
 }
+/* ====== TOGGLE SWITCH STYLING ====== */
 
+#dark .react-switch-bg{
+  background-color: var(--darkbglighter) !important ;
+  border: 2px solid var(--primarytxt) !important;
+}
+#dark .react-switch-handle{
+  background-color: var(--primary) !important;
+  border: 2px solid var(--primarytxt) !important;
+  box-shadow: none !important;
+}
+#light .react-switch-bg{
+  background-color: var(--primarylight) !important ;
+  border: 2px solid var(--lighttext) !important;
+}
+#light .react-switch-handle{
+  background-color: var(--primarylight) !important;
+  border-bottom: 2px solid var(--white)!important;
+  border-top: 2px solid var(--white)!important;
+  border-right: 2px solid var(--darkbglighter) !important ;
+  border-left: 2px solid var(--lighttext)!important;
+  box-shadow: none !important;
+}
+
+/* ====== END OF TOGGLE SWITCH STYLING ====== */
 .App{
   margin: 0 auto;
   border-radius: 10px;
@@ -205,7 +230,7 @@ small{
     background-position: center;
   } 
   .switch{
-    top: -50px;
+    top: -40px;
     left: 84%;
   }
   .App{

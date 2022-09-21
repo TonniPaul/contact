@@ -2,27 +2,29 @@
 nav{
    background: var(--primary);
 }
+#light nav{
+   background: var(--primarylight);
+   color: var(--lighttext);
+}
 .navdiv{
    display: flex;
    justify-content: space-between;
    align-items: center;
    margin: auto;
-   padding: 1rem 2rem 0;
-   max-width: 1440px;
+   padding: .4rem 1rem 0;
 }
-
-.logo{
+.myLogo{
+   width: 150px;
+}
+/* .logo{
    font-family: 'Square Peg';
    font-size: 50px;
    padding-bottom: 1rem;
    cursor: pointer;
-}
-#light nav{
-   background: var(--primarylight);
-   color: var(--lighttext);
-}
+} */
 ul{
    display: flex;
+   align-items: flex-end;
    gap: 2rem;
    list-style: none;
 }
@@ -46,6 +48,7 @@ a{
 .icons{
    display: flex;
    gap: 7px;
+   font-size: 18px;
    justify-content: center;
    align-items: center;
    padding: .2rem .2rem .5rem;
@@ -53,12 +56,15 @@ a{
 #light .icons{
    color: var(--lighttext);
 }
+ul > a{
+   transition: all 0.4s ease-in-out;
+}
 ul a.active{
-   border-bottom: 3px solid var(--primarytxt);
+   border-bottom: 2px solid var(--primarytxt);
    margin: 0;
 }
 #light ul a.active{
-   border-bottom: 3px solid var(--lighttext);
+   border-bottom: 2px solid var(--lighttext);
    margin: 0;
 }
 .whatsapp{
@@ -71,7 +77,7 @@ ul a.active{
    z-index: 888;
 }
 @media (max-width:900px){
-   naV{
+   nav{
       flex-direction: column;
       width: 100%;
    }

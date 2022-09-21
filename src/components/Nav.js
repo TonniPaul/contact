@@ -1,5 +1,6 @@
 import './Nav.css';
 import { NavLink } from 'react-router-dom';
+import logo from '../images/logo.png';
 // import { navData } from './objects';
 
 
@@ -16,9 +17,10 @@ function Nav (){
    return(
       <>
          <nav>
-            <div className='navdiv'>
+         <div className='navdiv'>
             <div className='logocv'>
-               <h2 className="logo"><span className='tt'> t</span><span>onni</span>Paul</h2>
+               <img src={logo} alt = 'tonnipaul' className='myLogo'/>
+
          </div>
             <ul>
                <NavLink to='/'>
@@ -57,9 +59,6 @@ function Nav (){
           
             </div>
          </nav>
-            {/* <a href='http://wa.me/2348162325194/' className='whatsapp' target='blank'>
-                  <i class="fa-brands fa-whatsapp"></i>
-            </a> */}
          </>
    )
 }

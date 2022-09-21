@@ -1,7 +1,7 @@
 .contact--form{
    width: 40%;
    margin: 1rem auto 2rem;
-
+       border-radius: 15px;
 }
 label{
    text-align: left;
@@ -11,6 +11,7 @@ label{
    box-shadow: var(--shadow);
    padding: 2rem;
    text-align: left;
+   border-radius: 9px;
 }
 #light .imputs {
    background-color: var(--primarylight);

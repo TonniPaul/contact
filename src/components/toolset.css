@@ -7,7 +7,7 @@
    font-size: 20px;
    padding: 2rem;
    box-shadow: var(--shadow);
-   border-radius: 15px;
+   border-radius: 9px;
 }
 #light .toolset{
    background: var(--primarylight);
