@@ -20,8 +20,7 @@ function Nav (){
          <div className='navdiv'>
             <div className='logocv'>
                <img src={logo} alt = 'tonnipaul' className='myLogo'/>
-
-         </div>
+            </div>
             <ul>
                <NavLink to='/'>
                   <li>

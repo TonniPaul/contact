@@ -11,7 +11,7 @@ nav{
    justify-content: space-between;
    align-items: center;
    margin: auto;
-   padding: .4rem 1rem 0;
+   padding: .7rem 1rem 0;
 }
 .myLogo{
    width: 150px;
@@ -28,13 +28,7 @@ ul{
    gap: 2rem;
    list-style: none;
 }
-.logocv{
-   width: 50%;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   gap: 4rem;
-}
+
 /* ====== logo design ====== */
 .tt{
    font-family: 'Great Vibes', sans-serif;
@@ -66,15 +60,6 @@ ul a.active{
 #light ul a.active{
    border-bottom: 2px solid var(--lighttext);
    margin: 0;
-}
-.whatsapp{
-   position: fixed;
-   bottom: 100px;
-   right: 10px;
-   font-size: 50px;
-   color: rgb(26, 84, 26);
-   text-shadow: -2px -3px 3px var(--primarytxt);
-   z-index: 888;
 }
 @media (max-width:900px){
    nav{
