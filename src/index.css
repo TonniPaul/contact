@@ -180,9 +180,8 @@ a{
 
 .about--img{
   width: 180px;
-  margin:3rem auto;
-  border-radius:50% ;
-  transform: translateX(0);
+  margin:1rem auto 0 !important;
+  border-radius:50%;
   animation: about--img infinite 10s ease-in-out;
 }
 

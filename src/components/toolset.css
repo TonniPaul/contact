@@ -25,12 +25,11 @@ hr{
 }
 .toolset > div{
    display: grid;
-   gap: 20px;
    grid-template-columns: repeat(3,1fr);
    justify-content: center;
    align-items: center;
    margin: auto;
-   padding: 2rem;
+   padding:1rem .5rem;
 }
 .skill--text{
    font-size: 15px;

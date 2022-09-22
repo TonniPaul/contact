@@ -52,9 +52,7 @@ a{
 #light .icons{
    color: var(--lighttext);
 }
-ul > a{
-   transition: all 0.4s ease-in-out;
-}
+
 ul a.active{
    border-bottom: 2px solid var(--primarytxt);
    margin: 0;
