@@ -12,7 +12,7 @@ export default function ProjectPage() {
     )
   })
   return (
-    <div className="projectPageDiv">
+    <div className="projectPageDiv transition">
       {projectsInputs}
       {/* <div className="int"></div> */}
     </div>

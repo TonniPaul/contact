@@ -15,6 +15,7 @@ nav{
 }
 .myLogo{
    width: 150px;
+   user-select: none;
 }
 /* .logo{
    font-family: 'Square Peg';
@@ -90,13 +91,13 @@ ul a.active{
    ul{
       position: fixed;
       gap: .5rem;
-      bottom: 10px;
+      bottom: 5px;
       left: 50%;
       border-radius: 30px 30px 0 0;
       align-items: center;
       justify-content: center;
       width: max-content;
-      padding: .1rem 1rem;
+      padding: .5rem 1rem;
       width: max-content;
       left: 0;
       right: 0;
@@ -104,7 +105,7 @@ ul a.active{
       box-shadow: 0px -1px .1px var(--primarytxt);
       border-bottom:1px solid var(--primarytxt);
       background-color: var(--primary);
-      z-index: 9999;
+      z-index: 30;
       line-height: 1px;
    } 
    #light ul{

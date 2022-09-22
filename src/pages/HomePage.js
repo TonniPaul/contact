@@ -18,7 +18,7 @@ export default function HomePage() {
     )
   })
   return (
-    <div className="App">
+    <div className="App transition">
       <Hero/>
         <h1 className="project--header">Projects</h1>
       <Card>

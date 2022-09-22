@@ -2,7 +2,7 @@ import { MyContact } from "../components/Contact";
 
 export default function ContactPage() {
   return (
-    <div>
+    <div className="transition">
       <MyContact/>
     </div>
   )

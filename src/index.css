@@ -28,33 +28,37 @@
 }
 body{
   color: var(--primarytxt);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
   line-height: 30px;
 }
 #dark {
   background-color: var(--darkbglighter);
+  transition: all .5s ease-in-out;
+
 }
 #light{
   background-color: var(--white);
   color: var(--lighttext);
-  transition: all 3s ease-in-out;
+  transition: all .5s ease-in;
 }
 /* ====== TOGGLE SWITCH STYLING ====== */
-
 #dark .react-switch-bg{
   background-color: var(--darkbglighter) !important ;
   border: 2px solid var(--primarytxt) !important;
+  transition: all .2s linear !important;
 }
 #dark .react-switch-handle{
   background-color: var(--primary) !important;
   border: 2px solid var(--primarytxt) !important;
+  border-left: 2px solid var(--darkbglighter) !important ;
   box-shadow: none !important;
 }
 #light .react-switch-bg{
   background-color: var(--primarylight) !important ;
   border: 2px solid var(--lighttext) !important;
+  transition: all .2s step-end !important;
 }
 #light .react-switch-handle{
   background-color: var(--primarylight) !important;

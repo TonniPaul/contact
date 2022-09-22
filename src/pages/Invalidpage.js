@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Invalidpage(){
    return (
-      <div>
+      <div className='transition'>
          <div className="invalid myabout">
             <h1>Error 404</h1>
             <img src={ invalidimg } alt='invalid img' className='invalid--img'/>
