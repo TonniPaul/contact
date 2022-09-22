@@ -16,6 +16,7 @@ nav{
 .myLogo{
    width: 150px;
    user-select: none;
+   cursor: pointer;
 }
 /* .logo{
    font-family: 'Square Peg';
