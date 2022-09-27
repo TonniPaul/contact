@@ -18,7 +18,7 @@ Source code of my portfolio.
 
 ## Authors
 
-- [@TonniPaul](https://www.github.com/tonnipaul)
+- Ariyo-Adeoye Paul => [@TonniPaul](https://www.github.com/tonnipaul)
 
 
 
