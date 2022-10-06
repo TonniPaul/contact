@@ -3,25 +3,32 @@
    margin:1rem auto;
    box-shadow: var(--shadow);
    border-radius: 9px;
+   overflow: hidden;
+   margin-bottom: 50px;
 }
 #light .project {
    box-shadow: var(--lightshadow);
 }
 .project--img{
    width: 100%;
+   height: 390px;
+}
+.paddinggg {
+   padding: 2rem;
+   display: grid;
+   gap: 20px;
 }
 .project--img:hover{
    filter: sepia(50%) ;
 }
 .project--content{
    background: var(--primary);
-   border-radius: inherit;
-   padding: 2rem;
    display: grid;
    justify-content: center;
    align-items: center;
    gap: 10px;
    position: relative;
+   min-height: 700px;
 }
 #light .project--content{
    background: var(--primarylight);
@@ -46,6 +53,13 @@
       grid-template-columns: 1fr;
    }
    .project--content{
-      padding: .6rem;
+      min-height: max-content;
+   }
+   .project--img {
+      height: auto;
+   }
+   .paddinggg {
+      padding: .6rem .6rem 1.5rem;
+      gap: 10px;
    }
 }

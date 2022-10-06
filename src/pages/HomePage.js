@@ -9,7 +9,8 @@ import { Link } from 'react-router-dom';
 import Card from '../UI/Card'
 
 export default function HomePage() {
-  const projectsInputs = projectData.map(items =>{
+  const ppp = projectData.splice(0,2)
+  const projectsInputs = ppp.map(items =>{
     return(
       <Projects
       key = {items.id}
@@ -21,13 +22,15 @@ export default function HomePage() {
     <div className="App transition">
       <Hero/>
         <h1 className="project--header">Projects</h1>
-      <Card>
+      <Card className='btm-margin' >
         {projectsInputs}
         <Link to='/projects'><p className="project--link viewmore">VIEW MORE</p></Link>
       </Card>
       <Card>
         <About />
-        <Toolset/>
+        <Toolset
+
+        />
       </Card>
       <div className="ccontact">
         <Contact />
