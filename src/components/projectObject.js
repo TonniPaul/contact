@@ -3,33 +3,51 @@ import { v4 as uuid } from "uuid"
 export const projectData =[
    {
       id: uuid(),
+      title : 'ADVICE GENERATOR' ,
+      image: './images/advicegen.jpg',
+      description:'An API-driven web application that generates random advice',
+      stacks:'HTML, CSS, JAVASCRIPT, REACT and Adviceslip API',
+      liveSite: 'https://advice-generator-rho-six.vercel.app/',
+      github: 'https://github.com/TonniPaul/adviceGenerator',
+      design : 'FrontEnd Mentor'
+   },
+   {
+      id: uuid(),
+      title : 'CHATSCRUM' ,
       image: './images/chatscrum.png',
-      description:'ChatScrum is a task organization web application, On Successful log-in, You will be redirected to A dashboart to create tasks And you can move your tasks from one section to another by dragging it. ',
+      description:'This web-based task organization application features drag-and-drop functionality',
       stacks:'HTML, CSS, JAVASCRIPT, REACT and Mockaroo API',
       liveSite: 'http://prello-six.vercel.app/',
-      github: 'https://github.com/tonniPaul/prello'
+      github: 'https://github.com/tonniPaul/prello',
+      design : 'LinuxJobber'
    },
    {
       id: uuid(),
+      title : 'MEME GENERATOR' ,
       image: './images/memelarge.png',
-      description:'A web Application that generates random Meme Images and allows you to input your own Header and Footer caption ',
+      description:'Meme Images are generated randomly and captions can be entered for the Header and Footer',
       stacks:'HTML, CSS, JAVASCRIPT and REACT',
       liveSite: 'https://tonnimeme.vercel.app',
-      github: 'https://github.com/TonniPaul/meme'
+      github: 'https://github.com/TonniPaul/meme',
+      design : 'Scrimba'
    },
    {
       id: uuid(),
+      title : 'DICE GAME' ,
       image: './images/dicegame.png',
-      description:'Created a dice game that generates random dice numbers and declares the winner on click',
+      description:'The dice game generates random dice numbers and declares the winner when clicked',
       liveSite: 'https://tonnipaul.github.io/dice-game/',
-      github: 'https://github.com/TonniPaul/dice-game'
+      github: 'https://github.com/TonniPaul/dice-game',
+      design : 'Angela Yu (UDEMY)'
    },
    {
       id: uuid(),
+      title : 'FITNESS WEBSITE TEMPLATE' ,
       image: './images/fitnesssite.png',
-      description: 'A fitness website website template.',
+      description: 'This is a fitness website template.',
       liveSite: 'https://tonnipaul.github.io/My-gridisite/',
       stacks: 'HTML, CSS, Images(Unsplash)',
-      github: 'https://github.com/TonniPaul/My-gridisite'
+      github: 'https://github.com/TonniPaul/My-gridisite',
+      design : 'Travasery Media (Youtube)'
    }
 ]
