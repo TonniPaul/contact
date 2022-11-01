@@ -8,7 +8,7 @@ export default function Projects({image,description,stacks,liveSite,github, desi
 
       <div className="project">
          <div className='project--content'>
-            <img src={image} alt='' className='project--img'/>
+            <img src={image} alt='Project Snapshot' className='project--img'/>
             <div className="paddinggg">
                <h3>{title}</h3>
                <p>{description}</p>
