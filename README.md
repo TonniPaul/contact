@@ -4,7 +4,7 @@ Source code of my portfolio.
 
 ## Portfolio website
 
-[See it live! :rocket:](https://www.tonnipaul.live) 
+[See it live! :rocket:](https://portfolio.tonnipaul.live) 
 
 ## Technologies
 * HTML5
